@@ -41,8 +41,6 @@ Partial Class pharmacistMenu1
         Me.medName_txbx = New System.Windows.Forms.TextBox()
         Me.medId_txbx = New System.Windows.Forms.TextBox()
         Me.addmed_datagrid = New System.Windows.Forms.DataGridView()
-        Me.add_inventBtn = New System.Windows.Forms.Button()
-        Me.Button8 = New System.Windows.Forms.Button()
         Me.MedIDDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.MedicineDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.CategoryDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
@@ -51,6 +49,8 @@ Partial Class pharmacistMenu1
         Me.QtyDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Meds_inventoryBindingSource = New System.Windows.Forms.BindingSource(Me.components)
         Me.PharmaDataSet = New WindowsApp1.pharmaDataSet()
+        Me.add_inventBtn = New System.Windows.Forms.Button()
+        Me.Button8 = New System.Windows.Forms.Button()
         Me.Meds_inventoryTableAdapter = New WindowsApp1.pharmaDataSetTableAdapters.meds_inventoryTableAdapter()
         Me.TableAdapterManager = New WindowsApp1.pharmaDataSetTableAdapters.TableAdapterManager()
         Me.Panel2.SuspendLayout()
@@ -65,15 +65,15 @@ Partial Class pharmacistMenu1
         Me.Panel2.BackColor = System.Drawing.Color.LightSteelBlue
         Me.Panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Panel2.Controls.Add(Me.adminMenu_back)
-        Me.Panel2.Location = New System.Drawing.Point(0, 490)
+        Me.Panel2.Location = New System.Drawing.Point(0, 527)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(666, 22)
+        Me.Panel2.Size = New System.Drawing.Size(692, 22)
         Me.Panel2.TabIndex = 44
         '
         'adminMenu_back
         '
         Me.adminMenu_back.BackColor = System.Drawing.Color.SkyBlue
-        Me.adminMenu_back.Location = New System.Drawing.Point(277, -2)
+        Me.adminMenu_back.Location = New System.Drawing.Point(309, -2)
         Me.adminMenu_back.Name = "adminMenu_back"
         Me.adminMenu_back.Size = New System.Drawing.Size(75, 22)
         Me.adminMenu_back.TabIndex = 24
@@ -88,7 +88,7 @@ Partial Class pharmacistMenu1
         Me.Panel1.Controls.Add(Me.Label1)
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(666, 75)
+        Me.Panel1.Size = New System.Drawing.Size(692, 75)
         Me.Panel1.TabIndex = 42
         '
         'Label8
@@ -96,7 +96,7 @@ Partial Class pharmacistMenu1
         Me.Label8.AutoSize = True
         Me.Label8.Font = New System.Drawing.Font("Microsoft Tai Le", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label8.ForeColor = System.Drawing.Color.White
-        Me.Label8.Location = New System.Drawing.Point(273, 50)
+        Me.Label8.Location = New System.Drawing.Point(286, 50)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(121, 19)
         Me.Label8.TabIndex = 85
@@ -108,7 +108,7 @@ Partial Class pharmacistMenu1
         Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Microsoft YaHei UI", 27.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.FloralWhite
-        Me.Label1.Location = New System.Drawing.Point(214, 0)
+        Me.Label1.Location = New System.Drawing.Point(227, 0)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(238, 50)
         Me.Label1.TabIndex = 0
@@ -118,7 +118,7 @@ Partial Class pharmacistMenu1
         '
         Me.medCategory_combx.FormattingEnabled = True
         Me.medCategory_combx.Items.AddRange(New Object() {"Pain Killer", "Anti-Depression"})
-        Me.medCategory_combx.Location = New System.Drawing.Point(231, 157)
+        Me.medCategory_combx.Location = New System.Drawing.Point(244, 156)
         Me.medCategory_combx.Name = "medCategory_combx"
         Me.medCategory_combx.Size = New System.Drawing.Size(227, 21)
         Me.medCategory_combx.TabIndex = 81
@@ -127,7 +127,7 @@ Partial Class pharmacistMenu1
         '
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(160, 261)
+        Me.Label7.Location = New System.Drawing.Point(173, 260)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(64, 16)
         Me.Label7.TabIndex = 80
@@ -137,7 +137,7 @@ Partial Class pharmacistMenu1
         '
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(177, 227)
+        Me.Label6.Location = New System.Drawing.Point(190, 226)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(47, 16)
         Me.Label6.TabIndex = 79
@@ -147,7 +147,7 @@ Partial Class pharmacistMenu1
         '
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(139, 193)
+        Me.Label5.Location = New System.Drawing.Point(152, 192)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(85, 16)
         Me.Label5.TabIndex = 78
@@ -157,7 +157,7 @@ Partial Class pharmacistMenu1
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(153, 158)
+        Me.Label4.Location = New System.Drawing.Point(166, 157)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(71, 16)
         Me.Label4.TabIndex = 77
@@ -167,7 +167,7 @@ Partial Class pharmacistMenu1
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(113, 125)
+        Me.Label3.Location = New System.Drawing.Point(126, 124)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(111, 16)
         Me.Label3.TabIndex = 76
@@ -177,7 +177,7 @@ Partial Class pharmacistMenu1
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(137, 91)
+        Me.Label2.Location = New System.Drawing.Point(150, 90)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(87, 16)
         Me.Label2.TabIndex = 75
@@ -185,35 +185,35 @@ Partial Class pharmacistMenu1
         '
         'medQty_txbx
         '
-        Me.medQty_txbx.Location = New System.Drawing.Point(231, 260)
+        Me.medQty_txbx.Location = New System.Drawing.Point(244, 259)
         Me.medQty_txbx.Name = "medQty_txbx"
         Me.medQty_txbx.Size = New System.Drawing.Size(228, 20)
         Me.medQty_txbx.TabIndex = 74
         '
         'medPrice_txbx
         '
-        Me.medPrice_txbx.Location = New System.Drawing.Point(231, 226)
+        Me.medPrice_txbx.Location = New System.Drawing.Point(244, 225)
         Me.medPrice_txbx.Name = "medPrice_txbx"
         Me.medPrice_txbx.Size = New System.Drawing.Size(228, 20)
         Me.medPrice_txbx.TabIndex = 73
         '
         'expDate_txbx
         '
-        Me.expDate_txbx.Location = New System.Drawing.Point(231, 192)
+        Me.expDate_txbx.Location = New System.Drawing.Point(244, 191)
         Me.expDate_txbx.Name = "expDate_txbx"
         Me.expDate_txbx.Size = New System.Drawing.Size(228, 20)
         Me.expDate_txbx.TabIndex = 72
         '
         'medName_txbx
         '
-        Me.medName_txbx.Location = New System.Drawing.Point(231, 124)
+        Me.medName_txbx.Location = New System.Drawing.Point(244, 123)
         Me.medName_txbx.Name = "medName_txbx"
         Me.medName_txbx.Size = New System.Drawing.Size(228, 20)
         Me.medName_txbx.TabIndex = 71
         '
         'medId_txbx
         '
-        Me.medId_txbx.Location = New System.Drawing.Point(230, 90)
+        Me.medId_txbx.Location = New System.Drawing.Point(243, 89)
         Me.medId_txbx.Name = "medId_txbx"
         Me.medId_txbx.Size = New System.Drawing.Size(228, 20)
         Me.medId_txbx.TabIndex = 68
@@ -225,32 +225,10 @@ Partial Class pharmacistMenu1
         Me.addmed_datagrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.addmed_datagrid.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.MedIDDataGridViewTextBoxColumn, Me.MedicineDataGridViewTextBoxColumn, Me.CategoryDataGridViewTextBoxColumn, Me.ExpirationdateDataGridViewTextBoxColumn, Me.PriceDataGridViewTextBoxColumn, Me.QtyDataGridViewTextBoxColumn})
         Me.addmed_datagrid.DataSource = Me.Meds_inventoryBindingSource
-        Me.addmed_datagrid.Location = New System.Drawing.Point(11, 324)
+        Me.addmed_datagrid.Location = New System.Drawing.Point(13, 324)
         Me.addmed_datagrid.Name = "addmed_datagrid"
-        Me.addmed_datagrid.Size = New System.Drawing.Size(644, 152)
+        Me.addmed_datagrid.Size = New System.Drawing.Size(667, 197)
         Me.addmed_datagrid.TabIndex = 82
-        '
-        'add_inventBtn
-        '
-        Me.add_inventBtn.BackColor = System.Drawing.Color.LightSkyBlue
-        Me.add_inventBtn.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.add_inventBtn.Location = New System.Drawing.Point(248, 290)
-        Me.add_inventBtn.Name = "add_inventBtn"
-        Me.add_inventBtn.Size = New System.Drawing.Size(84, 28)
-        Me.add_inventBtn.TabIndex = 83
-        Me.add_inventBtn.Text = "ADD"
-        Me.add_inventBtn.UseVisualStyleBackColor = False
-        '
-        'Button8
-        '
-        Me.Button8.BackColor = System.Drawing.Color.LightSkyBlue
-        Me.Button8.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button8.Location = New System.Drawing.Point(353, 290)
-        Me.Button8.Name = "Button8"
-        Me.Button8.Size = New System.Drawing.Size(84, 28)
-        Me.Button8.TabIndex = 84
-        Me.Button8.Text = "RESET"
-        Me.Button8.UseVisualStyleBackColor = False
         '
         'MedIDDataGridViewTextBoxColumn
         '
@@ -298,6 +276,28 @@ Partial Class pharmacistMenu1
         Me.PharmaDataSet.DataSetName = "pharmaDataSet"
         Me.PharmaDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
         '
+        'add_inventBtn
+        '
+        Me.add_inventBtn.BackColor = System.Drawing.Color.LightSkyBlue
+        Me.add_inventBtn.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.add_inventBtn.Location = New System.Drawing.Point(261, 289)
+        Me.add_inventBtn.Name = "add_inventBtn"
+        Me.add_inventBtn.Size = New System.Drawing.Size(84, 28)
+        Me.add_inventBtn.TabIndex = 83
+        Me.add_inventBtn.Text = "ADD"
+        Me.add_inventBtn.UseVisualStyleBackColor = False
+        '
+        'Button8
+        '
+        Me.Button8.BackColor = System.Drawing.Color.LightSkyBlue
+        Me.Button8.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Button8.Location = New System.Drawing.Point(366, 289)
+        Me.Button8.Name = "Button8"
+        Me.Button8.Size = New System.Drawing.Size(84, 28)
+        Me.Button8.TabIndex = 84
+        Me.Button8.Text = "RESET"
+        Me.Button8.UseVisualStyleBackColor = False
+        '
         'Meds_inventoryTableAdapter
         '
         Me.Meds_inventoryTableAdapter.ClearBeforeFill = True
@@ -315,7 +315,7 @@ Partial Class pharmacistMenu1
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Azure
-        Me.ClientSize = New System.Drawing.Size(666, 517)
+        Me.ClientSize = New System.Drawing.Size(690, 561)
         Me.Controls.Add(Me.Button8)
         Me.Controls.Add(Me.add_inventBtn)
         Me.Controls.Add(Me.addmed_datagrid)

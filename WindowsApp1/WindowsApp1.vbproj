@@ -122,6 +122,12 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="orderMgmtForm.Designer.vb">
+      <DependentUpon>orderMgmtForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="orderMgmtForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="phamacistLog.Designer.vb">
       <DependentUpon>phamacistLog.vb</DependentUpon>
     </Compile>
@@ -151,6 +157,12 @@
     <Compile Include="salesrepLog.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="supplierMgmtForm.Designer.vb">
+      <DependentUpon>supplierMgmtForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="supplierMgmtForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="adminLogin.resx">
@@ -174,6 +186,9 @@
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="orderMgmtForm.resx">
+      <DependentUpon>orderMgmtForm.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="phamacistLog.resx">
       <DependentUpon>phamacistLog.vb</DependentUpon>
     </EmbeddedResource>
@@ -185,6 +200,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="salesrepLog.resx">
       <DependentUpon>salesrepLog.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="supplierMgmtForm.resx">
+      <DependentUpon>supplierMgmtForm.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

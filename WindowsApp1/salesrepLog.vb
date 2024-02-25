@@ -10,7 +10,7 @@
 
     Private Sub salerep_Sumbit_Click(sender As Object, e As EventArgs) Handles salerep_Sumbit.Click
         If (salesrep_txbx.Text.Equals("sales101")) Then
-            MessageBox.Show("Login Successful", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information)
+            'MessageBox.Show("Login Successful", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information)
         Else
             salesrep_txbx.Clear()
             MessageBox.Show("Wrong password", "Information", MessageBoxButtons.OK, MessageBoxIcon.Error)

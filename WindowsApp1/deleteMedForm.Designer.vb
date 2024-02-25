@@ -55,7 +55,7 @@ Partial Class deleteMedForm
         Me.Label8.AutoSize = True
         Me.Label8.Font = New System.Drawing.Font("Microsoft Tai Le", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label8.ForeColor = System.Drawing.Color.White
-        Me.Label8.Location = New System.Drawing.Point(265, 50)
+        Me.Label8.Location = New System.Drawing.Point(271, 50)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(139, 19)
         Me.Label8.TabIndex = 85
@@ -67,7 +67,7 @@ Partial Class deleteMedForm
         Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Microsoft YaHei UI", 27.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.FloralWhite
-        Me.Label1.Location = New System.Drawing.Point(215, 0)
+        Me.Label1.Location = New System.Drawing.Point(221, 0)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(238, 50)
         Me.Label1.TabIndex = 0
@@ -82,7 +82,7 @@ Partial Class deleteMedForm
         Me.delMed_datagrid.DataSource = Me.Meds_inventoryBindingSource
         Me.delMed_datagrid.Location = New System.Drawing.Point(12, 203)
         Me.delMed_datagrid.Name = "delMed_datagrid"
-        Me.delMed_datagrid.Size = New System.Drawing.Size(644, 179)
+        Me.delMed_datagrid.Size = New System.Drawing.Size(657, 179)
         Me.delMed_datagrid.TabIndex = 85
         '
         'MedIDDataGridViewTextBoxColumn
@@ -139,7 +139,7 @@ Partial Class deleteMedForm
         Me.Panel1.Controls.Add(Me.Label1)
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(668, 75)
+        Me.Panel1.Size = New System.Drawing.Size(681, 75)
         Me.Panel1.TabIndex = 83
         '
         'adminMenu_back
@@ -159,7 +159,7 @@ Partial Class deleteMedForm
         Me.Panel2.Controls.Add(Me.adminMenu_back)
         Me.Panel2.Location = New System.Drawing.Point(-1, 400)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(669, 22)
+        Me.Panel2.Size = New System.Drawing.Size(682, 22)
         Me.Panel2.TabIndex = 84
         '
         'Button8
@@ -218,7 +218,7 @@ Partial Class deleteMedForm
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Azure
-        Me.ClientSize = New System.Drawing.Size(666, 427)
+        Me.ClientSize = New System.Drawing.Size(679, 427)
         Me.Controls.Add(Me.Button8)
         Me.Controls.Add(Me.deleteMed_btn)
         Me.Controls.Add(Me.Label2)
