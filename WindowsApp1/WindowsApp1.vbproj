@@ -134,6 +134,12 @@
     <Compile Include="phamacistLog.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="phamacistOptsform.Designer.vb">
+      <DependentUpon>phamacistOptsform.vb</DependentUpon>
+    </Compile>
+    <Compile Include="phamacistOptsform.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="pharmacistMenu1.Designer.vb">
       <DependentUpon>pharmacistMenu1.vb</DependentUpon>
     </Compile>
@@ -161,6 +167,18 @@
       <DependentUpon>supplierMgmtForm.vb</DependentUpon>
     </Compile>
     <Compile Include="supplierMgmtForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="updateStockForm.Designer.vb">
+      <DependentUpon>updateStockForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="updateStockForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewMedsForm.Designer.vb">
+      <DependentUpon>viewMedsForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="viewMedsForm.vb">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
@@ -192,6 +210,9 @@
     <EmbeddedResource Include="phamacistLog.resx">
       <DependentUpon>phamacistLog.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="phamacistOptsform.resx">
+      <DependentUpon>phamacistOptsform.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="pharmacistMenu1.resx">
       <DependentUpon>pharmacistMenu1.vb</DependentUpon>
     </EmbeddedResource>
@@ -203,6 +224,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="supplierMgmtForm.resx">
       <DependentUpon>supplierMgmtForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="updateStockForm.resx">
+      <DependentUpon>updateStockForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewMedsForm.resx">
+      <DependentUpon>viewMedsForm.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

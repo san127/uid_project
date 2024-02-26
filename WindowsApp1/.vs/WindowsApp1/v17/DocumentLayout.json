@@ -3,36 +3,88 @@
   "WorkspaceRootPath": "C:\\Users\\Apple\\Desktop\\New folder\\WindowsApp1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8FFF0108-EBF5-4631-A02A-8880BFE5E58F}|WindowsApp1.vbproj|C:\\Users\\Apple\\Desktop\\New folder\\WindowsApp1\\pharmacistmenu1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{8FFF0108-EBF5-4631-A02A-8880BFE5E58F}|WindowsApp1.vbproj|solutionrelative:pharmacistmenu1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8FFF0108-EBF5-4631-A02A-8880BFE5E58F}|WindowsApp1.vbproj|C:\\Users\\Apple\\Desktop\\New folder\\WindowsApp1\\log1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{8FFF0108-EBF5-4631-A02A-8880BFE5E58F}|WindowsApp1.vbproj|solutionrelative:log1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8FFF0108-EBF5-4631-A02A-8880BFE5E58F}|WindowsApp1.vbproj|c:\\users\\apple\\desktop\\new folder\\windowsapp1\\ordermgmtform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{8FFF0108-EBF5-4631-A02A-8880BFE5E58F}|WindowsApp1.vbproj|solutionrelative:ordermgmtform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+      "AbsoluteMoniker": "D:0:0:{8FFF0108-EBF5-4631-A02A-8880BFE5E58F}|WindowsApp1.vbproj|c:\\users\\apple\\desktop\\new folder\\windowsapp1\\viewmedsform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{8FFF0108-EBF5-4631-A02A-8880BFE5E58F}|WindowsApp1.vbproj|solutionrelative:viewmedsform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8FFF0108-EBF5-4631-A02A-8880BFE5E58F}|WindowsApp1.vbproj|c:\\users\\apple\\desktop\\new folder\\windowsapp1\\ordermgmtform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{8FFF0108-EBF5-4631-A02A-8880BFE5E58F}|WindowsApp1.vbproj|solutionrelative:ordermgmtform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+      "AbsoluteMoniker": "D:0:0:{8FFF0108-EBF5-4631-A02A-8880BFE5E58F}|WindowsApp1.vbproj|c:\\users\\apple\\desktop\\new folder\\windowsapp1\\phamacistoptsform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{8FFF0108-EBF5-4631-A02A-8880BFE5E58F}|WindowsApp1.vbproj|solutionrelative:phamacistoptsform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8FFF0108-EBF5-4631-A02A-8880BFE5E58F}|WindowsApp1.vbproj|c:\\users\\apple\\desktop\\new folder\\windowsapp1\\suppliermgmtform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "AbsoluteMoniker": "D:0:0:{8FFF0108-EBF5-4631-A02A-8880BFE5E58F}|WindowsApp1.vbproj|c:\\users\\apple\\desktop\\new folder\\windowsapp1\\phamacistoptsform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{8FFF0108-EBF5-4631-A02A-8880BFE5E58F}|WindowsApp1.vbproj|solutionrelative:phamacistoptsform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FFF0108-EBF5-4631-A02A-8880BFE5E58F}|WindowsApp1.vbproj|c:\\users\\apple\\desktop\\new folder\\windowsapp1\\updatestockform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{8FFF0108-EBF5-4631-A02A-8880BFE5E58F}|WindowsApp1.vbproj|solutionrelative:updatestockform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FFF0108-EBF5-4631-A02A-8880BFE5E58F}|WindowsApp1.vbproj|C:\\Users\\Apple\\Desktop\\New folder\\WindowsApp1\\suppliermgmtform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{8FFF0108-EBF5-4631-A02A-8880BFE5E58F}|WindowsApp1.vbproj|solutionrelative:suppliermgmtform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8FFF0108-EBF5-4631-A02A-8880BFE5E58F}|WindowsApp1.vbproj|c:\\users\\apple\\desktop\\new folder\\windowsapp1\\suppliermgmtform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{8FFF0108-EBF5-4631-A02A-8880BFE5E58F}|WindowsApp1.vbproj|solutionrelative:suppliermgmtform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+      "AbsoluteMoniker": "D:0:0:{8FFF0108-EBF5-4631-A02A-8880BFE5E58F}|WindowsApp1.vbproj|C:\\Users\\Apple\\Desktop\\New folder\\WindowsApp1\\dataoptionsform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{8FFF0108-EBF5-4631-A02A-8880BFE5E58F}|WindowsApp1.vbproj|solutionrelative:dataoptionsform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FFF0108-EBF5-4631-A02A-8880BFE5E58F}|WindowsApp1.vbproj|C:\\Users\\Apple\\Desktop\\New folder\\WindowsApp1\\adminmenu1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{8FFF0108-EBF5-4631-A02A-8880BFE5E58F}|WindowsApp1.vbproj|solutionrelative:adminmenu1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FFF0108-EBF5-4631-A02A-8880BFE5E58F}|WindowsApp1.vbproj|C:\\Users\\Apple\\Desktop\\New folder\\WindowsApp1\\purchmanger_log.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{8FFF0108-EBF5-4631-A02A-8880BFE5E58F}|WindowsApp1.vbproj|solutionrelative:purchmanger_log.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FFF0108-EBF5-4631-A02A-8880BFE5E58F}|WindowsApp1.vbproj|c:\\users\\apple\\desktop\\new folder\\windowsapp1\\pharmacistmenu1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{8FFF0108-EBF5-4631-A02A-8880BFE5E58F}|WindowsApp1.vbproj|solutionrelative:pharmacistmenu1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FFF0108-EBF5-4631-A02A-8880BFE5E58F}|WindowsApp1.vbproj|C:\\Users\\Apple\\Desktop\\New folder\\WindowsApp1\\salesreplog.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{8FFF0108-EBF5-4631-A02A-8880BFE5E58F}|WindowsApp1.vbproj|solutionrelative:salesreplog.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8FFF0108-EBF5-4631-A02A-8880BFE5E58F}|WindowsApp1.vbproj|C:\\Users\\Apple\\Desktop\\New folder\\WindowsApp1\\salesreplog.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{8FFF0108-EBF5-4631-A02A-8880BFE5E58F}|WindowsApp1.vbproj|solutionrelative:salesreplog.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8FFF0108-EBF5-4631-A02A-8880BFE5E58F}|WindowsApp1.vbproj|C:\\Users\\Apple\\Desktop\\New folder\\WindowsApp1\\dataoptionsform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{8FFF0108-EBF5-4631-A02A-8880BFE5E58F}|WindowsApp1.vbproj|solutionrelative:dataoptionsform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+      "AbsoluteMoniker": "D:0:0:{8FFF0108-EBF5-4631-A02A-8880BFE5E58F}|WindowsApp1.vbproj|C:\\Users\\Apple\\Desktop\\New folder\\WindowsApp1\\adminmenu1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{8FFF0108-EBF5-4631-A02A-8880BFE5E58F}|WindowsApp1.vbproj|solutionrelative:adminmenu1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FFF0108-EBF5-4631-A02A-8880BFE5E58F}|WindowsApp1.vbproj|c:\\users\\apple\\desktop\\new folder\\windowsapp1\\viewmedsform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{8FFF0108-EBF5-4631-A02A-8880BFE5E58F}|WindowsApp1.vbproj|solutionrelative:viewmedsform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FFF0108-EBF5-4631-A02A-8880BFE5E58F}|WindowsApp1.vbproj|C:\\Users\\Apple\\Desktop\\New folder\\WindowsApp1\\deletemedform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{8FFF0108-EBF5-4631-A02A-8880BFE5E58F}|WindowsApp1.vbproj|solutionrelative:deletemedform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FFF0108-EBF5-4631-A02A-8880BFE5E58F}|WindowsApp1.vbproj|C:\\Users\\Apple\\Desktop\\New folder\\WindowsApp1\\ordermgmtform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{8FFF0108-EBF5-4631-A02A-8880BFE5E58F}|WindowsApp1.vbproj|solutionrelative:ordermgmtform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FFF0108-EBF5-4631-A02A-8880BFE5E58F}|WindowsApp1.vbproj|C:\\Users\\Apple\\Desktop\\New folder\\WindowsApp1\\ordermgmtform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{8FFF0108-EBF5-4631-A02A-8880BFE5E58F}|WindowsApp1.vbproj|solutionrelative:ordermgmtform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FFF0108-EBF5-4631-A02A-8880BFE5E58F}|WindowsApp1.vbproj|C:\\Users\\Apple\\Desktop\\New folder\\WindowsApp1\\adminlogin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{8FFF0108-EBF5-4631-A02A-8880BFE5E58F}|WindowsApp1.vbproj|solutionrelative:adminlogin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FFF0108-EBF5-4631-A02A-8880BFE5E58F}|WindowsApp1.vbproj|C:\\Users\\Apple\\Desktop\\New folder\\WindowsApp1\\phamacistlog.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{8FFF0108-EBF5-4631-A02A-8880BFE5E58F}|WindowsApp1.vbproj|solutionrelative:phamacistlog.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FFF0108-EBF5-4631-A02A-8880BFE5E58F}|WindowsApp1.vbproj|c:\\users\\apple\\desktop\\new folder\\windowsapp1\\phamacistlog.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{8FFF0108-EBF5-4631-A02A-8880BFE5E58F}|WindowsApp1.vbproj|solutionrelative:phamacistlog.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FFF0108-EBF5-4631-A02A-8880BFE5E58F}|WindowsApp1.vbproj|C:\\Users\\Apple\\Desktop\\New folder\\WindowsApp1\\suppliermgmtform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{8FFF0108-EBF5-4631-A02A-8880BFE5E58F}|WindowsApp1.vbproj|solutionrelative:suppliermgmtform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8FFF0108-EBF5-4631-A02A-8880BFE5E58F}|WindowsApp1.vbproj|C:\\Users\\Apple\\Desktop\\New folder\\WindowsApp1\\pharmacistmenu1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
@@ -43,40 +95,12 @@
       "RelativeMoniker": "D:0:0:{8FFF0108-EBF5-4631-A02A-8880BFE5E58F}|WindowsApp1.vbproj|solutionrelative:deletemedform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8FFF0108-EBF5-4631-A02A-8880BFE5E58F}|WindowsApp1.vbproj|C:\\Users\\Apple\\Desktop\\New folder\\WindowsApp1\\deletemedform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{8FFF0108-EBF5-4631-A02A-8880BFE5E58F}|WindowsApp1.vbproj|solutionrelative:deletemedform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8FFF0108-EBF5-4631-A02A-8880BFE5E58F}|WindowsApp1.vbproj|c:\\users\\apple\\desktop\\new folder\\windowsapp1\\adminlogin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "AbsoluteMoniker": "D:0:0:{8FFF0108-EBF5-4631-A02A-8880BFE5E58F}|WindowsApp1.vbproj|C:\\Users\\Apple\\Desktop\\New folder\\WindowsApp1\\adminlogin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{8FFF0108-EBF5-4631-A02A-8880BFE5E58F}|WindowsApp1.vbproj|solutionrelative:adminlogin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8FFF0108-EBF5-4631-A02A-8880BFE5E58F}|WindowsApp1.vbproj|C:\\Users\\Apple\\Desktop\\New folder\\WindowsApp1\\adminmenu1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{8FFF0108-EBF5-4631-A02A-8880BFE5E58F}|WindowsApp1.vbproj|solutionrelative:adminmenu1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8FFF0108-EBF5-4631-A02A-8880BFE5E58F}|WindowsApp1.vbproj|C:\\Users\\Apple\\Desktop\\New folder\\WindowsApp1\\dataoptionsform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{8FFF0108-EBF5-4631-A02A-8880BFE5E58F}|WindowsApp1.vbproj|solutionrelative:dataoptionsform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8FFF0108-EBF5-4631-A02A-8880BFE5E58F}|WindowsApp1.vbproj|C:\\Users\\Apple\\Desktop\\New folder\\WindowsApp1\\purchmanger_log.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{8FFF0108-EBF5-4631-A02A-8880BFE5E58F}|WindowsApp1.vbproj|solutionrelative:purchmanger_log.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8FFF0108-EBF5-4631-A02A-8880BFE5E58F}|WindowsApp1.vbproj|C:\\Users\\Apple\\Desktop\\New folder\\WindowsApp1\\salesreplog.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{8FFF0108-EBF5-4631-A02A-8880BFE5E58F}|WindowsApp1.vbproj|solutionrelative:salesreplog.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8FFF0108-EBF5-4631-A02A-8880BFE5E58F}|WindowsApp1.vbproj|C:\\Users\\Apple\\Desktop\\New folder\\WindowsApp1\\adminlogin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{8FFF0108-EBF5-4631-A02A-8880BFE5E58F}|WindowsApp1.vbproj|solutionrelative:adminlogin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8FFF0108-EBF5-4631-A02A-8880BFE5E58F}|WindowsApp1.vbproj|C:\\Users\\Apple\\Desktop\\New folder\\WindowsApp1\\adminmenu1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{8FFF0108-EBF5-4631-A02A-8880BFE5E58F}|WindowsApp1.vbproj|solutionrelative:adminmenu1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8FFF0108-EBF5-4631-A02A-8880BFE5E58F}|WindowsApp1.vbproj|C:\\Users\\Apple\\Desktop\\New folder\\WindowsApp1\\phamacistlog.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{8FFF0108-EBF5-4631-A02A-8880BFE5E58F}|WindowsApp1.vbproj|solutionrelative:phamacistlog.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -86,11 +110,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "log1.vb [Design]",
               "DocumentMoniker": "C:\\Users\\Apple\\Desktop\\New folder\\WindowsApp1\\log1.vb",
               "RelativeDocumentMoniker": "log1.vb",
@@ -103,7 +127,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "salesrepLog.vb [Design]",
               "DocumentMoniker": "C:\\Users\\Apple\\Desktop\\New folder\\WindowsApp1\\salesrepLog.vb",
               "RelativeDocumentMoniker": "salesrepLog.vb",
@@ -124,11 +148,12 @@
               "RelativeToolTip": "phamacistLog.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2024-02-25T05:20:43.549Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "adminLogin.vb [Design]",
               "DocumentMoniker": "C:\\Users\\Apple\\Desktop\\New folder\\WindowsApp1\\adminLogin.vb",
               "RelativeDocumentMoniker": "adminLogin.vb",
@@ -141,7 +166,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 8,
               "Title": "purchmanger_log.vb [Design]",
               "DocumentMoniker": "C:\\Users\\Apple\\Desktop\\New folder\\WindowsApp1\\purchmanger_log.vb",
               "RelativeDocumentMoniker": "purchmanger_log.vb",
@@ -154,7 +179,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 9,
               "Title": "pharmacistMenu1.vb [Design]",
               "DocumentMoniker": "C:\\Users\\Apple\\Desktop\\New folder\\WindowsApp1\\pharmacistMenu1.vb",
               "RelativeDocumentMoniker": "pharmacistMenu1.vb",
@@ -167,7 +192,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "deleteMedForm.vb [Design]",
               "DocumentMoniker": "C:\\Users\\Apple\\Desktop\\New folder\\WindowsApp1\\deleteMedForm.vb",
               "RelativeDocumentMoniker": "deleteMedForm.vb",
@@ -180,7 +205,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 7,
               "Title": "adminMenu1.vb [Design]",
               "DocumentMoniker": "C:\\Users\\Apple\\Desktop\\New folder\\WindowsApp1\\adminMenu1.vb",
               "RelativeDocumentMoniker": "adminMenu1.vb",
@@ -193,7 +218,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "dataoptionsform.vb [Design]",
               "DocumentMoniker": "C:\\Users\\Apple\\Desktop\\New folder\\WindowsApp1\\dataoptionsform.vb",
               "RelativeDocumentMoniker": "dataoptionsform.vb",
@@ -206,7 +231,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "supplierMgmtForm.vb [Design]",
               "DocumentMoniker": "C:\\Users\\Apple\\Desktop\\New folder\\WindowsApp1\\supplierMgmtForm.vb",
               "RelativeDocumentMoniker": "supplierMgmtForm.vb",
@@ -219,7 +244,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 16,
               "Title": "orderMgmtForm.vb [Design]",
               "DocumentMoniker": "C:\\Users\\Apple\\Desktop\\New folder\\WindowsApp1\\orderMgmtForm.vb",
               "RelativeDocumentMoniker": "orderMgmtForm.vb",
@@ -232,20 +257,99 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "phamacistLog.vb",
+              "DocumentMoniker": "C:\\Users\\Apple\\Desktop\\New folder\\WindowsApp1\\phamacistLog.vb",
+              "RelativeDocumentMoniker": "phamacistLog.vb",
+              "ToolTip": "C:\\Users\\Apple\\Desktop\\New folder\\WindowsApp1\\phamacistLog.vb",
+              "RelativeToolTip": "phamacistLog.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-02-26T12:17:59.335Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "phamacistOptsform.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\Apple\\Desktop\\New folder\\WindowsApp1\\phamacistOptsform.vb",
+              "RelativeDocumentMoniker": "phamacistOptsform.vb",
+              "ToolTip": "C:\\Users\\Apple\\Desktop\\New folder\\WindowsApp1\\phamacistOptsform.vb [Design]",
+              "RelativeToolTip": "phamacistOptsform.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-02-26T12:21:34.967Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "viewMedsForm.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\Apple\\Desktop\\New folder\\WindowsApp1\\viewMedsForm.vb",
+              "RelativeDocumentMoniker": "viewMedsForm.vb",
+              "ToolTip": "C:\\Users\\Apple\\Desktop\\New folder\\WindowsApp1\\viewMedsForm.vb [Design]",
+              "RelativeToolTip": "viewMedsForm.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-02-26T12:34:29.263Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "updateStockForm.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\Apple\\Desktop\\New folder\\WindowsApp1\\updateStockForm.vb",
+              "RelativeDocumentMoniker": "updateStockForm.vb",
+              "ToolTip": "C:\\Users\\Apple\\Desktop\\New folder\\WindowsApp1\\updateStockForm.vb [Design]",
+              "RelativeToolTip": "updateStockForm.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-02-26T12:43:56.168Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "viewMedsForm.vb",
+              "DocumentMoniker": "C:\\Users\\Apple\\Desktop\\New folder\\WindowsApp1\\viewMedsForm.vb",
+              "RelativeDocumentMoniker": "viewMedsForm.vb",
+              "ToolTip": "C:\\Users\\Apple\\Desktop\\New folder\\WindowsApp1\\viewMedsForm.vb",
+              "RelativeToolTip": "viewMedsForm.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-02-26T12:36:26.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "phamacistOptsform.vb",
+              "DocumentMoniker": "C:\\Users\\Apple\\Desktop\\New folder\\WindowsApp1\\phamacistOptsform.vb",
+              "RelativeDocumentMoniker": "phamacistOptsform.vb",
+              "ToolTip": "C:\\Users\\Apple\\Desktop\\New folder\\WindowsApp1\\phamacistOptsform.vb",
+              "RelativeToolTip": "phamacistOptsform.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-02-26T12:24:18.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "orderMgmtForm.vb",
               "DocumentMoniker": "C:\\Users\\Apple\\Desktop\\New folder\\WindowsApp1\\orderMgmtForm.vb",
               "RelativeDocumentMoniker": "orderMgmtForm.vb",
               "ToolTip": "C:\\Users\\Apple\\Desktop\\New folder\\WindowsApp1\\orderMgmtForm.vb",
               "RelativeToolTip": "orderMgmtForm.vb",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAQAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2024-02-25T18:07:33.176Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 20,
               "Title": "supplierMgmtForm.vb",
               "DocumentMoniker": "C:\\Users\\Apple\\Desktop\\New folder\\WindowsApp1\\supplierMgmtForm.vb",
               "RelativeDocumentMoniker": "supplierMgmtForm.vb",
@@ -258,7 +362,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 23,
               "Title": "adminLogin.vb",
               "DocumentMoniker": "C:\\Users\\Apple\\Desktop\\New folder\\WindowsApp1\\adminLogin.vb",
               "RelativeDocumentMoniker": "adminLogin.vb",
@@ -271,20 +375,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 10,
               "Title": "salesrepLog.vb",
               "DocumentMoniker": "C:\\Users\\Apple\\Desktop\\New folder\\WindowsApp1\\salesrepLog.vb",
               "RelativeDocumentMoniker": "salesrepLog.vb",
               "ToolTip": "C:\\Users\\Apple\\Desktop\\New folder\\WindowsApp1\\salesrepLog.vb",
               "RelativeToolTip": "salesrepLog.vb",
-              "ViewState": "AQIAAAAAAAAAAAAAAAA6wAwAAAANAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBAAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2024-02-25T15:44:30.311Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 22,
               "Title": "deleteMedForm.vb",
               "DocumentMoniker": "C:\\Users\\Apple\\Desktop\\New folder\\WindowsApp1\\deleteMedForm.vb",
               "RelativeDocumentMoniker": "deleteMedForm.vb",
@@ -297,7 +401,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 21,
               "Title": "pharmacistMenu1.vb",
               "DocumentMoniker": "C:\\Users\\Apple\\Desktop\\New folder\\WindowsApp1\\pharmacistMenu1.vb",
               "RelativeDocumentMoniker": "pharmacistMenu1.vb",
@@ -305,12 +409,11 @@
               "RelativeToolTip": "pharmacistMenu1.vb",
               "ViewState": "AQIAABwAAAAAAAAAAADwvzUAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-02-25T14:00:23.016Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-25T14:00:23.016Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 24,
               "Title": "dataoptionsform.vb",
               "DocumentMoniker": "C:\\Users\\Apple\\Desktop\\New folder\\WindowsApp1\\dataoptionsform.vb",
               "RelativeDocumentMoniker": "dataoptionsform.vb",
@@ -323,13 +426,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 12,
               "Title": "adminMenu1.vb",
               "DocumentMoniker": "C:\\Users\\Apple\\Desktop\\New folder\\WindowsApp1\\adminMenu1.vb",
               "RelativeDocumentMoniker": "adminMenu1.vb",
               "ToolTip": "C:\\Users\\Apple\\Desktop\\New folder\\WindowsApp1\\adminMenu1.vb",
               "RelativeToolTip": "adminMenu1.vb",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAhwA8AAAAdAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAIA5wAsAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2024-02-25T12:31:03.61Z",
               "EditorCaption": ""
