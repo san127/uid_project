@@ -53,4 +53,5 @@ Public Class pharmacistMenu1
             Connec.Close()
         End Try
     End Sub
+
 End Class

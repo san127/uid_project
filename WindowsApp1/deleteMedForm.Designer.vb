@@ -37,7 +37,6 @@ Partial Class deleteMedForm
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.adminMenu_back = New System.Windows.Forms.Button()
         Me.Panel2 = New System.Windows.Forms.Panel()
-        Me.Button8 = New System.Windows.Forms.Button()
         Me.deleteMed_btn = New System.Windows.Forms.Button()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.delMed_txbx = New System.Windows.Forms.TextBox()
@@ -162,22 +161,11 @@ Partial Class deleteMedForm
         Me.Panel2.Size = New System.Drawing.Size(682, 22)
         Me.Panel2.TabIndex = 84
         '
-        'Button8
-        '
-        Me.Button8.BackColor = System.Drawing.Color.LightSkyBlue
-        Me.Button8.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button8.Location = New System.Drawing.Point(350, 150)
-        Me.Button8.Name = "Button8"
-        Me.Button8.Size = New System.Drawing.Size(84, 28)
-        Me.Button8.TabIndex = 89
-        Me.Button8.Text = "RESET"
-        Me.Button8.UseVisualStyleBackColor = False
-        '
         'deleteMed_btn
         '
         Me.deleteMed_btn.BackColor = System.Drawing.Color.LightSkyBlue
         Me.deleteMed_btn.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.deleteMed_btn.Location = New System.Drawing.Point(243, 150)
+        Me.deleteMed_btn.Location = New System.Drawing.Point(293, 155)
         Me.deleteMed_btn.Name = "deleteMed_btn"
         Me.deleteMed_btn.Size = New System.Drawing.Size(84, 28)
         Me.deleteMed_btn.TabIndex = 88
@@ -219,7 +207,6 @@ Partial Class deleteMedForm
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Azure
         Me.ClientSize = New System.Drawing.Size(679, 427)
-        Me.Controls.Add(Me.Button8)
         Me.Controls.Add(Me.deleteMed_btn)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.delMed_txbx)
@@ -245,7 +232,6 @@ Partial Class deleteMedForm
     Friend WithEvents Panel1 As Panel
     Friend WithEvents adminMenu_back As Button
     Friend WithEvents Panel2 As Panel
-    Friend WithEvents Button8 As Button
     Friend WithEvents deleteMed_btn As Button
     Friend WithEvents Label2 As Label
     Friend WithEvents delMed_txbx As TextBox

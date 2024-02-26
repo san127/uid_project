@@ -29,10 +29,17 @@ Partial Class updateStockForm
         Me.adminMenu_back = New System.Windows.Forms.Button()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.updateMeds_DG = New System.Windows.Forms.DataGridView()
+        Me.MedIDDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.MedicineDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.CategoryDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.ExpirationdateDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.PriceDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.QtyDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Meds_inventoryBindingSource = New System.Windows.Forms.BindingSource(Me.components)
+        Me.PharmaDataSet = New WindowsApp1.pharmaDataSet()
         Me.medCategory_combx = New System.Windows.Forms.ComboBox()
         Me.MedsinventoryBindingSource = New System.Windows.Forms.BindingSource(Me.components)
         Me.PharmaDataSetBindingSource = New System.Windows.Forms.BindingSource(Me.components)
-        Me.PharmaDataSet = New WindowsApp1.pharmaDataSet()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
@@ -52,20 +59,13 @@ Partial Class updateStockForm
         Me.MexpdtUpd_btn = New System.Windows.Forms.Button()
         Me.MpriceUpd_btn = New System.Windows.Forms.Button()
         Me.MqtyUpd_btn = New System.Windows.Forms.Button()
-        Me.Meds_inventoryBindingSource = New System.Windows.Forms.BindingSource(Me.components)
-        Me.MedIDDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.MedicineDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.CategoryDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.ExpirationdateDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.PriceDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.QtyDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Panel2.SuspendLayout()
         Me.Panel1.SuspendLayout()
         CType(Me.updateMeds_DG, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Meds_inventoryBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PharmaDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.MedsinventoryBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PharmaDataSetBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PharmaDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.Meds_inventoryBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label8
@@ -134,6 +134,52 @@ Partial Class updateStockForm
         Me.updateMeds_DG.Size = New System.Drawing.Size(666, 209)
         Me.updateMeds_DG.TabIndex = 47
         '
+        'MedIDDataGridViewTextBoxColumn
+        '
+        Me.MedIDDataGridViewTextBoxColumn.DataPropertyName = "Med_ID"
+        Me.MedIDDataGridViewTextBoxColumn.HeaderText = "Med_ID"
+        Me.MedIDDataGridViewTextBoxColumn.Name = "MedIDDataGridViewTextBoxColumn"
+        '
+        'MedicineDataGridViewTextBoxColumn
+        '
+        Me.MedicineDataGridViewTextBoxColumn.DataPropertyName = "Medicine"
+        Me.MedicineDataGridViewTextBoxColumn.HeaderText = "Medicine"
+        Me.MedicineDataGridViewTextBoxColumn.Name = "MedicineDataGridViewTextBoxColumn"
+        '
+        'CategoryDataGridViewTextBoxColumn
+        '
+        Me.CategoryDataGridViewTextBoxColumn.DataPropertyName = "category"
+        Me.CategoryDataGridViewTextBoxColumn.HeaderText = "category"
+        Me.CategoryDataGridViewTextBoxColumn.Name = "CategoryDataGridViewTextBoxColumn"
+        '
+        'ExpirationdateDataGridViewTextBoxColumn
+        '
+        Me.ExpirationdateDataGridViewTextBoxColumn.DataPropertyName = "expiration_date"
+        Me.ExpirationdateDataGridViewTextBoxColumn.HeaderText = "expiration_date"
+        Me.ExpirationdateDataGridViewTextBoxColumn.Name = "ExpirationdateDataGridViewTextBoxColumn"
+        '
+        'PriceDataGridViewTextBoxColumn
+        '
+        Me.PriceDataGridViewTextBoxColumn.DataPropertyName = "Price"
+        Me.PriceDataGridViewTextBoxColumn.HeaderText = "Price"
+        Me.PriceDataGridViewTextBoxColumn.Name = "PriceDataGridViewTextBoxColumn"
+        '
+        'QtyDataGridViewTextBoxColumn
+        '
+        Me.QtyDataGridViewTextBoxColumn.DataPropertyName = "Qty"
+        Me.QtyDataGridViewTextBoxColumn.HeaderText = "Qty"
+        Me.QtyDataGridViewTextBoxColumn.Name = "QtyDataGridViewTextBoxColumn"
+        '
+        'Meds_inventoryBindingSource
+        '
+        Me.Meds_inventoryBindingSource.DataMember = "meds_inventory"
+        Me.Meds_inventoryBindingSource.DataSource = Me.PharmaDataSet
+        '
+        'PharmaDataSet
+        '
+        Me.PharmaDataSet.DataSetName = "pharmaDataSet"
+        Me.PharmaDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
+        '
         'medCategory_combx
         '
         Me.medCategory_combx.FormattingEnabled = True
@@ -152,11 +198,6 @@ Partial Class updateStockForm
         '
         Me.PharmaDataSetBindingSource.DataSource = Me.PharmaDataSet
         Me.PharmaDataSetBindingSource.Position = 0
-        '
-        'PharmaDataSet
-        '
-        Me.PharmaDataSet.DataSetName = "pharmaDataSet"
-        Me.PharmaDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
         '
         'Label7
         '
@@ -335,47 +376,6 @@ Partial Class updateStockForm
         Me.MqtyUpd_btn.Text = "UPDATE"
         Me.MqtyUpd_btn.UseVisualStyleBackColor = False
         '
-        'Meds_inventoryBindingSource
-        '
-        Me.Meds_inventoryBindingSource.DataMember = "meds_inventory"
-        Me.Meds_inventoryBindingSource.DataSource = Me.PharmaDataSet
-        '
-        'MedIDDataGridViewTextBoxColumn
-        '
-        Me.MedIDDataGridViewTextBoxColumn.DataPropertyName = "Med_ID"
-        Me.MedIDDataGridViewTextBoxColumn.HeaderText = "Med_ID"
-        Me.MedIDDataGridViewTextBoxColumn.Name = "MedIDDataGridViewTextBoxColumn"
-        '
-        'MedicineDataGridViewTextBoxColumn
-        '
-        Me.MedicineDataGridViewTextBoxColumn.DataPropertyName = "Medicine"
-        Me.MedicineDataGridViewTextBoxColumn.HeaderText = "Medicine"
-        Me.MedicineDataGridViewTextBoxColumn.Name = "MedicineDataGridViewTextBoxColumn"
-        '
-        'CategoryDataGridViewTextBoxColumn
-        '
-        Me.CategoryDataGridViewTextBoxColumn.DataPropertyName = "category"
-        Me.CategoryDataGridViewTextBoxColumn.HeaderText = "category"
-        Me.CategoryDataGridViewTextBoxColumn.Name = "CategoryDataGridViewTextBoxColumn"
-        '
-        'ExpirationdateDataGridViewTextBoxColumn
-        '
-        Me.ExpirationdateDataGridViewTextBoxColumn.DataPropertyName = "expiration_date"
-        Me.ExpirationdateDataGridViewTextBoxColumn.HeaderText = "expiration_date"
-        Me.ExpirationdateDataGridViewTextBoxColumn.Name = "ExpirationdateDataGridViewTextBoxColumn"
-        '
-        'PriceDataGridViewTextBoxColumn
-        '
-        Me.PriceDataGridViewTextBoxColumn.DataPropertyName = "Price"
-        Me.PriceDataGridViewTextBoxColumn.HeaderText = "Price"
-        Me.PriceDataGridViewTextBoxColumn.Name = "PriceDataGridViewTextBoxColumn"
-        '
-        'QtyDataGridViewTextBoxColumn
-        '
-        Me.QtyDataGridViewTextBoxColumn.DataPropertyName = "Qty"
-        Me.QtyDataGridViewTextBoxColumn.HeaderText = "Qty"
-        Me.QtyDataGridViewTextBoxColumn.Name = "QtyDataGridViewTextBoxColumn"
-        '
         'updateStockForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -411,10 +411,10 @@ Partial Class updateStockForm
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
         CType(Me.updateMeds_DG, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Meds_inventoryBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PharmaDataSet, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.MedsinventoryBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PharmaDataSetBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PharmaDataSet, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.Meds_inventoryBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

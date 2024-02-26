@@ -23,7 +23,6 @@ Partial Class salesrepLog
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(salesrepLog))
-        Me.salerep_reset = New System.Windows.Forms.Button()
         Me.salerep_Sumbit = New System.Windows.Forms.Button()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.salerep_back_btn = New System.Windows.Forms.Button()
@@ -33,22 +32,11 @@ Partial Class salesrepLog
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.salerep_reset = New System.Windows.Forms.Button()
         Me.Panel2.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
-        '
-        'salerep_reset
-        '
-        Me.salerep_reset.BackColor = System.Drawing.Color.LightSkyBlue
-        Me.salerep_reset.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.salerep_reset.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.salerep_reset.Location = New System.Drawing.Point(219, 386)
-        Me.salerep_reset.Name = "salerep_reset"
-        Me.salerep_reset.Size = New System.Drawing.Size(129, 31)
-        Me.salerep_reset.TabIndex = 39
-        Me.salerep_reset.Text = "RESET"
-        Me.salerep_reset.UseVisualStyleBackColor = False
         '
         'salerep_Sumbit
         '
@@ -145,6 +133,18 @@ Partial Class salesrepLog
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "PharmExcel"
         '
+        'salerep_reset
+        '
+        Me.salerep_reset.BackColor = System.Drawing.Color.LightSkyBlue
+        Me.salerep_reset.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.salerep_reset.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.salerep_reset.Location = New System.Drawing.Point(219, 386)
+        Me.salerep_reset.Name = "salerep_reset"
+        Me.salerep_reset.Size = New System.Drawing.Size(129, 31)
+        Me.salerep_reset.TabIndex = 39
+        Me.salerep_reset.Text = "RESET"
+        Me.salerep_reset.UseVisualStyleBackColor = False
+        '
         'salesrepLog
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -170,8 +170,6 @@ Partial Class salesrepLog
         Me.PerformLayout()
 
     End Sub
-
-    Friend WithEvents salerep_reset As Button
     Friend WithEvents salerep_Sumbit As Button
     Friend WithEvents Panel2 As Panel
     Friend WithEvents salerep_back_btn As Button
@@ -181,4 +179,5 @@ Partial Class salesrepLog
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents Panel1 As Panel
     Friend WithEvents Label1 As Label
+    Friend WithEvents salerep_reset As Button
 End Class

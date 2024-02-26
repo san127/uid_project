@@ -50,7 +50,6 @@ Partial Class pharmacistMenu1
         Me.Meds_inventoryBindingSource = New System.Windows.Forms.BindingSource(Me.components)
         Me.PharmaDataSet = New WindowsApp1.pharmaDataSet()
         Me.add_inventBtn = New System.Windows.Forms.Button()
-        Me.Button8 = New System.Windows.Forms.Button()
         Me.Meds_inventoryTableAdapter = New WindowsApp1.pharmaDataSetTableAdapters.meds_inventoryTableAdapter()
         Me.TableAdapterManager = New WindowsApp1.pharmaDataSetTableAdapters.TableAdapterManager()
         Me.Panel2.SuspendLayout()
@@ -280,23 +279,12 @@ Partial Class pharmacistMenu1
         '
         Me.add_inventBtn.BackColor = System.Drawing.Color.LightSkyBlue
         Me.add_inventBtn.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.add_inventBtn.Location = New System.Drawing.Point(261, 289)
+        Me.add_inventBtn.Location = New System.Drawing.Point(311, 290)
         Me.add_inventBtn.Name = "add_inventBtn"
         Me.add_inventBtn.Size = New System.Drawing.Size(84, 28)
         Me.add_inventBtn.TabIndex = 83
         Me.add_inventBtn.Text = "ADD"
         Me.add_inventBtn.UseVisualStyleBackColor = False
-        '
-        'Button8
-        '
-        Me.Button8.BackColor = System.Drawing.Color.LightSkyBlue
-        Me.Button8.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button8.Location = New System.Drawing.Point(366, 289)
-        Me.Button8.Name = "Button8"
-        Me.Button8.Size = New System.Drawing.Size(84, 28)
-        Me.Button8.TabIndex = 84
-        Me.Button8.Text = "RESET"
-        Me.Button8.UseVisualStyleBackColor = False
         '
         'Meds_inventoryTableAdapter
         '
@@ -316,7 +304,6 @@ Partial Class pharmacistMenu1
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Azure
         Me.ClientSize = New System.Drawing.Size(690, 561)
-        Me.Controls.Add(Me.Button8)
         Me.Controls.Add(Me.add_inventBtn)
         Me.Controls.Add(Me.addmed_datagrid)
         Me.Controls.Add(Me.medCategory_combx)
@@ -365,7 +352,6 @@ Partial Class pharmacistMenu1
     Friend WithEvents medId_txbx As TextBox
     Friend WithEvents addmed_datagrid As DataGridView
     Friend WithEvents add_inventBtn As Button
-    Friend WithEvents Button8 As Button
     Friend WithEvents Label8 As Label
     Friend WithEvents PharmaDataSet As pharmaDataSet
     Friend WithEvents Meds_inventoryBindingSource As BindingSource

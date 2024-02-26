@@ -8,7 +8,11 @@ Public Class deleteMedForm
     End Sub
 
     Private Sub deleteMed_btn_Click(sender As Object, e As EventArgs) Handles deleteMed_btn.Click
-        Dim Query As String
+        If (delMed_txbx.Text.Length.Equals(0) = True) Then
+            MessageBox.Show("Please provide Medicine ID", "information", MessageBoxButtons.OK, MessageBoxIcon.Error)
+        Else
+
+            Dim Query As String
         Query = "DELETE FROM meds_inventory WHERE Med_ID=@Med_ID;"
         Dim Connec As MySqlConnection = New MySqlConnection("Data Source=localhost;Database=pharma;UserId=root;Password=MER@sql69420;")
 
@@ -25,5 +29,6 @@ Public Class deleteMedForm
         Finally
             Connec.Close()
         End Try
+        End If
     End Sub
 End Class
