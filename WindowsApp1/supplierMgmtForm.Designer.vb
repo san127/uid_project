@@ -36,7 +36,6 @@ Partial Class supplierMgmtForm
         Me.PharmaDataSet = New WindowsApp1.pharmaDataSet()
         Me.Meds_supplierTableAdapter = New WindowsApp1.pharmaDataSetTableAdapters.meds_supplierTableAdapter()
         Me.TableAdapterManager = New WindowsApp1.pharmaDataSetTableAdapters.TableAdapterManager()
-        Me.Button8 = New System.Windows.Forms.Button()
         Me.sup_addbtn = New System.Windows.Forms.Button()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.suppIDtxbx = New System.Windows.Forms.TextBox()
@@ -156,22 +155,11 @@ Partial Class supplierMgmtForm
         Me.TableAdapterManager.meds_supplierTableAdapter = Me.Meds_supplierTableAdapter
         Me.TableAdapterManager.UpdateOrder = WindowsApp1.pharmaDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete
         '
-        'Button8
-        '
-        Me.Button8.BackColor = System.Drawing.Color.LightSkyBlue
-        Me.Button8.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button8.Location = New System.Drawing.Point(306, 258)
-        Me.Button8.Name = "Button8"
-        Me.Button8.Size = New System.Drawing.Size(84, 28)
-        Me.Button8.TabIndex = 88
-        Me.Button8.Text = "RESET"
-        Me.Button8.UseVisualStyleBackColor = False
-        '
         'sup_addbtn
         '
         Me.sup_addbtn.BackColor = System.Drawing.Color.LightSkyBlue
         Me.sup_addbtn.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.sup_addbtn.Location = New System.Drawing.Point(216, 258)
+        Me.sup_addbtn.Location = New System.Drawing.Point(263, 258)
         Me.sup_addbtn.Name = "sup_addbtn"
         Me.sup_addbtn.Size = New System.Drawing.Size(84, 28)
         Me.sup_addbtn.TabIndex = 87
@@ -289,7 +277,6 @@ Partial Class supplierMgmtForm
         Me.Controls.Add(Me.supPhonetxbx)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.supNametxbx)
-        Me.Controls.Add(Me.Button8)
         Me.Controls.Add(Me.sup_addbtn)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.suppIDtxbx)
@@ -322,7 +309,6 @@ Partial Class supplierMgmtForm
     Friend WithEvents SnameDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
     Friend WithEvents ContactDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
     Friend WithEvents SuppliercompanyDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
-    Friend WithEvents Button8 As Button
     Friend WithEvents sup_addbtn As Button
     Friend WithEvents Label2 As Label
     Friend WithEvents suppIDtxbx As TextBox

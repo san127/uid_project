@@ -28,15 +28,14 @@ Partial Class orderMgmtForm
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
-        Me.PharmaDataSet = New WindowsApp1.pharmaDataSet()
-        Me.Meds_orderBindingSource = New System.Windows.Forms.BindingSource(Me.components)
-        Me.Meds_orderTableAdapter = New WindowsApp1.pharmaDataSetTableAdapters.meds_orderTableAdapter()
-        Me.TableAdapterManager = New WindowsApp1.pharmaDataSetTableAdapters.TableAdapterManager()
         Me.OrderIDDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.MednameDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.QtyDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.SIDDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.ord_resetBTN = New System.Windows.Forms.Button()
+        Me.Meds_orderBindingSource = New System.Windows.Forms.BindingSource(Me.components)
+        Me.PharmaDataSet = New WindowsApp1.pharmaDataSet()
+        Me.Meds_orderTableAdapter = New WindowsApp1.pharmaDataSetTableAdapters.meds_orderTableAdapter()
+        Me.TableAdapterManager = New WindowsApp1.pharmaDataSetTableAdapters.TableAdapterManager()
         Me.order_addBtn = New System.Windows.Forms.Button()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
@@ -48,8 +47,8 @@ Partial Class orderMgmtForm
         Me.medId_txbx = New System.Windows.Forms.TextBox()
         Me.Panel1.SuspendLayout()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PharmaDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Meds_orderBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PharmaDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Panel1
@@ -107,28 +106,6 @@ Partial Class orderMgmtForm
         Me.DataGridView1.Size = New System.Drawing.Size(565, 201)
         Me.DataGridView1.TabIndex = 49
         '
-        'PharmaDataSet
-        '
-        Me.PharmaDataSet.DataSetName = "pharmaDataSet"
-        Me.PharmaDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
-        '
-        'Meds_orderBindingSource
-        '
-        Me.Meds_orderBindingSource.DataMember = "meds_order"
-        Me.Meds_orderBindingSource.DataSource = Me.PharmaDataSet
-        '
-        'Meds_orderTableAdapter
-        '
-        Me.Meds_orderTableAdapter.ClearBeforeFill = True
-        '
-        'TableAdapterManager
-        '
-        Me.TableAdapterManager.BackupDataSetBeforeUpdate = False
-        Me.TableAdapterManager.meds_inventoryTableAdapter = Nothing
-        Me.TableAdapterManager.meds_orderTableAdapter = Me.Meds_orderTableAdapter
-        Me.TableAdapterManager.meds_supplierTableAdapter = Nothing
-        Me.TableAdapterManager.UpdateOrder = WindowsApp1.pharmaDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete
-        '
         'OrderIDDataGridViewTextBoxColumn
         '
         Me.OrderIDDataGridViewTextBoxColumn.DataPropertyName = "Order_ID"
@@ -153,22 +130,33 @@ Partial Class orderMgmtForm
         Me.SIDDataGridViewTextBoxColumn.HeaderText = "S_ID"
         Me.SIDDataGridViewTextBoxColumn.Name = "SIDDataGridViewTextBoxColumn"
         '
-        'ord_resetBTN
+        'Meds_orderBindingSource
         '
-        Me.ord_resetBTN.BackColor = System.Drawing.Color.LightSkyBlue
-        Me.ord_resetBTN.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.ord_resetBTN.Location = New System.Drawing.Point(307, 251)
-        Me.ord_resetBTN.Name = "ord_resetBTN"
-        Me.ord_resetBTN.Size = New System.Drawing.Size(84, 28)
-        Me.ord_resetBTN.TabIndex = 94
-        Me.ord_resetBTN.Text = "RESET"
-        Me.ord_resetBTN.UseVisualStyleBackColor = False
+        Me.Meds_orderBindingSource.DataMember = "meds_order"
+        Me.Meds_orderBindingSource.DataSource = Me.PharmaDataSet
+        '
+        'PharmaDataSet
+        '
+        Me.PharmaDataSet.DataSetName = "pharmaDataSet"
+        Me.PharmaDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
+        '
+        'Meds_orderTableAdapter
+        '
+        Me.Meds_orderTableAdapter.ClearBeforeFill = True
+        '
+        'TableAdapterManager
+        '
+        Me.TableAdapterManager.BackupDataSetBeforeUpdate = False
+        Me.TableAdapterManager.meds_inventoryTableAdapter = Nothing
+        Me.TableAdapterManager.meds_orderTableAdapter = Me.Meds_orderTableAdapter
+        Me.TableAdapterManager.meds_supplierTableAdapter = Nothing
+        Me.TableAdapterManager.UpdateOrder = WindowsApp1.pharmaDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete
         '
         'order_addBtn
         '
         Me.order_addBtn.BackColor = System.Drawing.Color.LightSkyBlue
         Me.order_addBtn.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.order_addBtn.Location = New System.Drawing.Point(202, 251)
+        Me.order_addBtn.Location = New System.Drawing.Point(254, 251)
         Me.order_addBtn.Name = "order_addBtn"
         Me.order_addBtn.Size = New System.Drawing.Size(84, 28)
         Me.order_addBtn.TabIndex = 93
@@ -249,7 +237,6 @@ Partial Class orderMgmtForm
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Azure
         Me.ClientSize = New System.Drawing.Size(582, 561)
-        Me.Controls.Add(Me.ord_resetBTN)
         Me.Controls.Add(Me.order_addBtn)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.Label5)
@@ -267,8 +254,8 @@ Partial Class orderMgmtForm
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PharmaDataSet, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Meds_orderBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PharmaDataSet, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -287,7 +274,6 @@ Partial Class orderMgmtForm
     Friend WithEvents MednameDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
     Friend WithEvents QtyDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
     Friend WithEvents SIDDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
-    Friend WithEvents ord_resetBTN As Button
     Friend WithEvents order_addBtn As Button
     Friend WithEvents Label6 As Label
     Friend WithEvents Label5 As Label

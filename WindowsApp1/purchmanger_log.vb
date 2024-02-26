@@ -1,4 +1,5 @@
 ﻿Public Class purchmanger_log
+
     Private Sub purchman_back_btn_Click(sender As Object, e As EventArgs) Handles purchman_back_btn.Click
         Me.Close()
         log1.Show()

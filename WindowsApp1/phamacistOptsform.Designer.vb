@@ -24,6 +24,7 @@ Partial Class phamacistOptsform
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(phamacistOptsform))
         Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.back_btn = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Label8 = New System.Windows.Forms.Label()
@@ -36,6 +37,7 @@ Partial Class phamacistOptsform
         Me.addstDBpic = New System.Windows.Forms.PictureBox()
         Me.viewdbPic = New System.Windows.Forms.PictureBox()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.Panel2.SuspendLayout()
         Me.Panel1.SuspendLayout()
         CType(Me.updDBpic, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.delStDbpic, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -48,10 +50,21 @@ Partial Class phamacistOptsform
         '
         Me.Panel2.BackColor = System.Drawing.Color.LightSteelBlue
         Me.Panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Panel2.Controls.Add(Me.back_btn)
         Me.Panel2.Location = New System.Drawing.Point(-1, 350)
         Me.Panel2.Name = "Panel2"
         Me.Panel2.Size = New System.Drawing.Size(557, 22)
         Me.Panel2.TabIndex = 88
+        '
+        'back_btn
+        '
+        Me.back_btn.BackColor = System.Drawing.Color.SkyBlue
+        Me.back_btn.Location = New System.Drawing.Point(240, -2)
+        Me.back_btn.Name = "back_btn"
+        Me.back_btn.Size = New System.Drawing.Size(75, 22)
+        Me.back_btn.TabIndex = 26
+        Me.back_btn.Text = "Back"
+        Me.back_btn.UseVisualStyleBackColor = False
         '
         'Label1
         '
@@ -206,6 +219,7 @@ Partial Class phamacistOptsform
         Me.Name = "phamacistOptsform"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "phamacistOptsform"
+        Me.Panel2.ResumeLayout(False)
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
         CType(Me.updDBpic, System.ComponentModel.ISupportInitialize).EndInit()
@@ -231,4 +245,5 @@ Partial Class phamacistOptsform
     Friend WithEvents viewdbPic As PictureBox
     Friend WithEvents Label8 As Label
     Friend WithEvents PictureBox2 As PictureBox
+    Friend WithEvents back_btn As Button
 End Class

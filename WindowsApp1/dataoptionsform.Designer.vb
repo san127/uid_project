@@ -85,6 +85,7 @@ Partial Class dataoptionsform
         '
         'viewdbPic
         '
+        Me.viewdbPic.Cursor = System.Windows.Forms.Cursors.Hand
         Me.viewdbPic.Image = CType(resources.GetObject("viewdbPic.Image"), System.Drawing.Image)
         Me.viewdbPic.Location = New System.Drawing.Point(30, 125)
         Me.viewdbPic.Name = "viewdbPic"
@@ -117,6 +118,7 @@ Partial Class dataoptionsform
         '
         'ordMgmtPic
         '
+        Me.ordMgmtPic.Cursor = System.Windows.Forms.Cursors.Hand
         Me.ordMgmtPic.Image = CType(resources.GetObject("ordMgmtPic.Image"), System.Drawing.Image)
         Me.ordMgmtPic.Location = New System.Drawing.Point(414, 125)
         Me.ordMgmtPic.Name = "ordMgmtPic"
@@ -138,6 +140,7 @@ Partial Class dataoptionsform
         '
         'PictureBox1
         '
+        Me.PictureBox1.Cursor = System.Windows.Forms.Cursors.Hand
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
         Me.PictureBox1.Location = New System.Drawing.Point(221, 125)
         Me.PictureBox1.Name = "PictureBox1"

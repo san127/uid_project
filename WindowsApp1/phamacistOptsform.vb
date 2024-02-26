@@ -18,4 +18,5 @@
         Me.Hide()
         updateStockForm.Show()
     End Sub
+
 End Class

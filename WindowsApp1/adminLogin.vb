@@ -1,4 +1,5 @@
 ﻿Public Class adminLogin
+
     Private Sub adm_back_btn_Click(sender As Object, e As EventArgs) Handles adm_back_btn.Click
         Me.Close()
         log1.Show()
@@ -18,4 +19,5 @@
             MessageBox.Show("Wrong password", "Information", MessageBoxButtons.OK, MessageBoxIcon.Error)
         End If
     End Sub
+
 End Class

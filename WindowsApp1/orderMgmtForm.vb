@@ -4,4 +4,5 @@
         Me.Meds_orderTableAdapter.Fill(Me.PharmaDataSet.meds_order)
 
     End Sub
+
 End Class
