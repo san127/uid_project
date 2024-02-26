@@ -46,3 +46,7 @@ C:\Users\Apple\Desktop\New folder\WindowsApp1\obj\Debug\WindowsApp1.xml
 C:\Users\Apple\Desktop\New folder\WindowsApp1\obj\Debug\WindowsApp1.pdb
 C:\Users\Apple\Desktop\New folder\WindowsApp1\obj\Debug\WindowsApp1.orderMgmtForm.resources
 C:\Users\Apple\Desktop\New folder\WindowsApp1\obj\Debug\WindowsApp1.supplierMgmtForm.resources
+C:\Users\Apple\Desktop\New folder\WindowsApp1\obj\Debug\WindowsApp1.phamacistOptsform.resources
+C:\Users\Apple\Desktop\New folder\WindowsApp1\obj\Debug\WindowsApp1.updateStockForm.resources
+C:\Users\Apple\Desktop\New folder\WindowsApp1\obj\Debug\WindowsApp1.viewMedsForm.resources
+C:\Users\Apple\Desktop\New folder\WindowsApp1\obj\Debug\WindowsApp1.POSform.resources

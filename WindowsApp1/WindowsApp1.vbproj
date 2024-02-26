@@ -151,6 +151,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>pharmaDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="POSform.Designer.vb">
+      <DependentUpon>POSform.vb</DependentUpon>
+    </Compile>
+    <Compile Include="POSform.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="purchmanger_log.Designer.vb">
       <DependentUpon>purchmanger_log.vb</DependentUpon>
     </Compile>
@@ -215,6 +221,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="pharmacistMenu1.resx">
       <DependentUpon>pharmacistMenu1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POSform.resx">
+      <DependentUpon>POSform.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="purchmanger_log.resx">
       <DependentUpon>purchmanger_log.vb</DependentUpon>

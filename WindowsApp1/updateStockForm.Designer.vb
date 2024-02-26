@@ -30,6 +30,9 @@ Partial Class updateStockForm
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.updateMeds_DG = New System.Windows.Forms.DataGridView()
         Me.medCategory_combx = New System.Windows.Forms.ComboBox()
+        Me.MedsinventoryBindingSource = New System.Windows.Forms.BindingSource(Me.components)
+        Me.PharmaDataSetBindingSource = New System.Windows.Forms.BindingSource(Me.components)
+        Me.PharmaDataSet = New WindowsApp1.pharmaDataSet()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
@@ -41,9 +44,6 @@ Partial Class updateStockForm
         Me.expDate_txbx = New System.Windows.Forms.TextBox()
         Me.medName_txbx = New System.Windows.Forms.TextBox()
         Me.medId_txbx = New System.Windows.Forms.TextBox()
-        Me.PharmaDataSet = New WindowsApp1.pharmaDataSet()
-        Me.PharmaDataSetBindingSource = New System.Windows.Forms.BindingSource(Me.components)
-        Me.MedsinventoryBindingSource = New System.Windows.Forms.BindingSource(Me.components)
         Me.Meds_inventoryTableAdapter = New WindowsApp1.pharmaDataSetTableAdapters.meds_inventoryTableAdapter()
         Me.medCheck_btn = New System.Windows.Forms.Button()
         Me.MnameUpd_btn = New System.Windows.Forms.Button()
@@ -55,9 +55,9 @@ Partial Class updateStockForm
         Me.Panel2.SuspendLayout()
         Me.Panel1.SuspendLayout()
         CType(Me.updateMeds_DG, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PharmaDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PharmaDataSetBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.MedsinventoryBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PharmaDataSetBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PharmaDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label8
@@ -132,7 +132,21 @@ Partial Class updateStockForm
         Me.medCategory_combx.Name = "medCategory_combx"
         Me.medCategory_combx.Size = New System.Drawing.Size(227, 21)
         Me.medCategory_combx.TabIndex = 93
-        Me.medCategory_combx.ValueMember = "category"
+        '
+        'MedsinventoryBindingSource
+        '
+        Me.MedsinventoryBindingSource.DataMember = "meds_inventory"
+        Me.MedsinventoryBindingSource.DataSource = Me.PharmaDataSetBindingSource
+        '
+        'PharmaDataSetBindingSource
+        '
+        Me.PharmaDataSetBindingSource.DataSource = Me.PharmaDataSet
+        Me.PharmaDataSetBindingSource.Position = 0
+        '
+        'PharmaDataSet
+        '
+        Me.PharmaDataSet.DataSetName = "pharmaDataSet"
+        Me.PharmaDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
         '
         'Label7
         '
@@ -230,21 +244,6 @@ Partial Class updateStockForm
         Me.medId_txbx.Size = New System.Drawing.Size(228, 20)
         Me.medId_txbx.TabIndex = 82
         '
-        'PharmaDataSet
-        '
-        Me.PharmaDataSet.DataSetName = "pharmaDataSet"
-        Me.PharmaDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
-        '
-        'PharmaDataSetBindingSource
-        '
-        Me.PharmaDataSetBindingSource.DataSource = Me.PharmaDataSet
-        Me.PharmaDataSetBindingSource.Position = 0
-        '
-        'MedsinventoryBindingSource
-        '
-        Me.MedsinventoryBindingSource.DataMember = "meds_inventory"
-        Me.MedsinventoryBindingSource.DataSource = Me.PharmaDataSetBindingSource
-        '
         'Meds_inventoryTableAdapter
         '
         Me.Meds_inventoryTableAdapter.ClearBeforeFill = True
@@ -331,7 +330,7 @@ Partial Class updateStockForm
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Azure
-        Me.ClientSize = New System.Drawing.Size(690, 614)
+        Me.ClientSize = New System.Drawing.Size(688, 632)
         Me.Controls.Add(Me.MqtyUpd_btn)
         Me.Controls.Add(Me.MpriceUpd_btn)
         Me.Controls.Add(Me.MexpdtUpd_btn)
@@ -355,14 +354,15 @@ Partial Class updateStockForm
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.Panel1)
         Me.Name = "updateStockForm"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "updateStockForm"
         Me.Panel2.ResumeLayout(False)
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
         CType(Me.updateMeds_DG, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PharmaDataSet, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PharmaDataSetBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.MedsinventoryBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PharmaDataSetBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PharmaDataSet, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

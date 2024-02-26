@@ -11,6 +11,8 @@
     Private Sub purchman_Sumbit_Click(sender As Object, e As EventArgs) Handles purchman_Sumbit.Click
         If (purchman_txbx.Text.Equals("purchmang101")) Then
             'MessageBox.Show("Login Successful", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information)
+            Me.Hide()
+            dataoptionsform.Show()
         Else
             purchman_txbx.Clear()
             MessageBox.Show("Wrong password", "Information", MessageBoxButtons.OK, MessageBoxIcon.Error)

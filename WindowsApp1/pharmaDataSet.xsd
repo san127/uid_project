@@ -81,7 +81,16 @@
               <Mapping SourceColumn="Price" DataSetColumn="Price" />
               <Mapping SourceColumn="Qty" DataSetColumn="Qty" />
             </Mappings>
-            <Sources />
+            <Sources>
+              <DbSource ConnectionRef="pharmaConnectionString (MySettings)" DbObjectName="pharma.meds_inventory" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="FillBy" GenerateMethods="Fill" GenerateShortCommands="true" GeneratorSourceName="FillBy" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy" UserSourceName="FillBy">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT DISTINCT Med_ID, Medicine, category, expiration_date, Price, Qty FROM pharma.meds_inventory</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </Sources>
           </TableAdapter>
           <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="meds_orderTableAdapter" GeneratorDataComponentClassName="meds_orderTableAdapter" Name="meds_order" UserDataComponentName="meds_orderTableAdapter">
             <MainSource>
@@ -212,38 +221,38 @@
       </DataSource>
     </xs:appinfo>
   </xs:annotation>
-  <xs:element name="pharmaDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_UserDSName="pharmaDataSet" msprop:Generator_DataSetName="pharmaDataSet">
+  <xs:element name="pharmaDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="pharmaDataSet" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="pharmaDataSet">
     <xs:complexType>
       <xs:choice minOccurs="0" maxOccurs="unbounded">
-        <xs:element name="meds_inventory" msprop:Generator_RowEvHandlerName="meds_inventoryRowChangeEventHandler" msprop:Generator_RowDeletedName="meds_inventoryRowDeleted" msprop:Generator_RowDeletingName="meds_inventoryRowDeleting" msprop:Generator_RowEvArgName="meds_inventoryRowChangeEvent" msprop:Generator_TablePropName="meds_inventory" msprop:Generator_RowChangedName="meds_inventoryRowChanged" msprop:Generator_RowChangingName="meds_inventoryRowChanging" msprop:Generator_TableClassName="meds_inventoryDataTable" msprop:Generator_RowClassName="meds_inventoryRow" msprop:Generator_TableVarName="tablemeds_inventory" msprop:Generator_UserTableName="meds_inventory">
+        <xs:element name="meds_inventory" msprop:Generator_RowClassName="meds_inventoryRow" msprop:Generator_RowEvHandlerName="meds_inventoryRowChangeEventHandler" msprop:Generator_RowDeletedName="meds_inventoryRowDeleted" msprop:Generator_RowDeletingName="meds_inventoryRowDeleting" msprop:Generator_RowEvArgName="meds_inventoryRowChangeEvent" msprop:Generator_TablePropName="meds_inventory" msprop:Generator_RowChangedName="meds_inventoryRowChanged" msprop:Generator_UserTableName="meds_inventory" msprop:Generator_RowChangingName="meds_inventoryRowChanging" msprop:Generator_TableClassName="meds_inventoryDataTable" msprop:Generator_TableVarName="tablemeds_inventory">
           <xs:complexType>
             <xs:sequence>
-              <xs:element name="Med_ID" msprop:Generator_ColumnPropNameInRow="Med_ID" msprop:Generator_ColumnPropNameInTable="Med_IDColumn" msprop:Generator_ColumnVarNameInTable="columnMed_ID" msprop:Generator_UserColumnName="Med_ID" type="xs:int" />
-              <xs:element name="Medicine" msprop:Generator_ColumnPropNameInRow="Medicine" msprop:Generator_ColumnPropNameInTable="MedicineColumn" msprop:Generator_ColumnVarNameInTable="columnMedicine" msprop:Generator_UserColumnName="Medicine" type="xs:string" minOccurs="0" />
-              <xs:element name="category" msprop:Generator_ColumnPropNameInRow="category" msprop:Generator_ColumnPropNameInTable="categoryColumn" msprop:Generator_ColumnVarNameInTable="columncategory" msprop:Generator_UserColumnName="category" type="xs:string" minOccurs="0" />
-              <xs:element name="expiration_date" msprop:Generator_ColumnPropNameInRow="expiration_date" msprop:Generator_ColumnPropNameInTable="expiration_dateColumn" msprop:Generator_ColumnVarNameInTable="columnexpiration_date" msprop:Generator_UserColumnName="expiration_date" type="xs:string" minOccurs="0" />
-              <xs:element name="Price" msprop:Generator_ColumnPropNameInRow="Price" msprop:Generator_ColumnPropNameInTable="PriceColumn" msprop:Generator_ColumnVarNameInTable="columnPrice" msprop:Generator_UserColumnName="Price" type="xs:int" minOccurs="0" />
-              <xs:element name="Qty" msprop:Generator_ColumnPropNameInRow="Qty" msprop:Generator_ColumnPropNameInTable="QtyColumn" msprop:Generator_ColumnVarNameInTable="columnQty" msprop:Generator_UserColumnName="Qty" type="xs:int" minOccurs="0" />
+              <xs:element name="Med_ID" msprop:Generator_UserColumnName="Med_ID" msprop:Generator_ColumnPropNameInTable="Med_IDColumn" msprop:Generator_ColumnPropNameInRow="Med_ID" msprop:Generator_ColumnVarNameInTable="columnMed_ID" type="xs:int" />
+              <xs:element name="Medicine" msprop:Generator_UserColumnName="Medicine" msprop:Generator_ColumnPropNameInTable="MedicineColumn" msprop:Generator_ColumnPropNameInRow="Medicine" msprop:Generator_ColumnVarNameInTable="columnMedicine" type="xs:string" minOccurs="0" />
+              <xs:element name="category" msprop:Generator_UserColumnName="category" msprop:Generator_ColumnPropNameInTable="categoryColumn" msprop:Generator_ColumnPropNameInRow="category" msprop:Generator_ColumnVarNameInTable="columncategory" type="xs:string" minOccurs="0" />
+              <xs:element name="expiration_date" msprop:Generator_UserColumnName="expiration_date" msprop:Generator_ColumnPropNameInTable="expiration_dateColumn" msprop:Generator_ColumnPropNameInRow="expiration_date" msprop:Generator_ColumnVarNameInTable="columnexpiration_date" type="xs:string" minOccurs="0" />
+              <xs:element name="Price" msprop:Generator_UserColumnName="Price" msprop:Generator_ColumnPropNameInTable="PriceColumn" msprop:Generator_ColumnPropNameInRow="Price" msprop:Generator_ColumnVarNameInTable="columnPrice" type="xs:int" minOccurs="0" />
+              <xs:element name="Qty" msprop:Generator_UserColumnName="Qty" msprop:Generator_ColumnPropNameInTable="QtyColumn" msprop:Generator_ColumnPropNameInRow="Qty" msprop:Generator_ColumnVarNameInTable="columnQty" type="xs:int" minOccurs="0" />
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-        <xs:element name="meds_order" msprop:Generator_RowEvHandlerName="meds_orderRowChangeEventHandler" msprop:Generator_RowDeletedName="meds_orderRowDeleted" msprop:Generator_RowDeletingName="meds_orderRowDeleting" msprop:Generator_RowEvArgName="meds_orderRowChangeEvent" msprop:Generator_TablePropName="meds_order" msprop:Generator_RowChangedName="meds_orderRowChanged" msprop:Generator_RowChangingName="meds_orderRowChanging" msprop:Generator_TableClassName="meds_orderDataTable" msprop:Generator_RowClassName="meds_orderRow" msprop:Generator_TableVarName="tablemeds_order" msprop:Generator_UserTableName="meds_order">
+        <xs:element name="meds_order" msprop:Generator_RowClassName="meds_orderRow" msprop:Generator_RowEvHandlerName="meds_orderRowChangeEventHandler" msprop:Generator_RowDeletedName="meds_orderRowDeleted" msprop:Generator_RowDeletingName="meds_orderRowDeleting" msprop:Generator_RowEvArgName="meds_orderRowChangeEvent" msprop:Generator_TablePropName="meds_order" msprop:Generator_RowChangedName="meds_orderRowChanged" msprop:Generator_UserTableName="meds_order" msprop:Generator_RowChangingName="meds_orderRowChanging" msprop:Generator_TableClassName="meds_orderDataTable" msprop:Generator_TableVarName="tablemeds_order">
           <xs:complexType>
             <xs:sequence>
-              <xs:element name="Order_ID" msprop:Generator_ColumnPropNameInRow="Order_ID" msprop:Generator_ColumnPropNameInTable="Order_IDColumn" msprop:Generator_ColumnVarNameInTable="columnOrder_ID" msprop:Generator_UserColumnName="Order_ID" type="xs:int" />
-              <xs:element name="med_name" msprop:Generator_ColumnPropNameInRow="med_name" msprop:Generator_ColumnPropNameInTable="med_nameColumn" msprop:Generator_ColumnVarNameInTable="columnmed_name" msprop:Generator_UserColumnName="med_name" type="xs:string" minOccurs="0" />
-              <xs:element name="qty" msprop:Generator_ColumnPropNameInRow="qty" msprop:Generator_ColumnPropNameInTable="qtyColumn" msprop:Generator_ColumnVarNameInTable="columnqty" msprop:Generator_UserColumnName="qty" type="xs:int" minOccurs="0" />
-              <xs:element name="S_ID" msprop:Generator_ColumnPropNameInRow="S_ID" msprop:Generator_ColumnPropNameInTable="S_IDColumn" msprop:Generator_ColumnVarNameInTable="columnS_ID" msprop:Generator_UserColumnName="S_ID" type="xs:int" minOccurs="0" />
+              <xs:element name="Order_ID" msprop:Generator_UserColumnName="Order_ID" msprop:Generator_ColumnPropNameInTable="Order_IDColumn" msprop:Generator_ColumnPropNameInRow="Order_ID" msprop:Generator_ColumnVarNameInTable="columnOrder_ID" type="xs:int" />
+              <xs:element name="med_name" msprop:Generator_UserColumnName="med_name" msprop:Generator_ColumnPropNameInTable="med_nameColumn" msprop:Generator_ColumnPropNameInRow="med_name" msprop:Generator_ColumnVarNameInTable="columnmed_name" type="xs:string" minOccurs="0" />
+              <xs:element name="qty" msprop:Generator_UserColumnName="qty" msprop:Generator_ColumnPropNameInTable="qtyColumn" msprop:Generator_ColumnPropNameInRow="qty" msprop:Generator_ColumnVarNameInTable="columnqty" type="xs:int" minOccurs="0" />
+              <xs:element name="S_ID" msprop:Generator_UserColumnName="S_ID" msprop:Generator_ColumnPropNameInTable="S_IDColumn" msprop:Generator_ColumnPropNameInRow="S_ID" msprop:Generator_ColumnVarNameInTable="columnS_ID" type="xs:int" minOccurs="0" />
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-        <xs:element name="meds_supplier" msprop:Generator_RowEvHandlerName="meds_supplierRowChangeEventHandler" msprop:Generator_RowDeletedName="meds_supplierRowDeleted" msprop:Generator_RowDeletingName="meds_supplierRowDeleting" msprop:Generator_RowEvArgName="meds_supplierRowChangeEvent" msprop:Generator_TablePropName="meds_supplier" msprop:Generator_RowChangedName="meds_supplierRowChanged" msprop:Generator_RowChangingName="meds_supplierRowChanging" msprop:Generator_TableClassName="meds_supplierDataTable" msprop:Generator_RowClassName="meds_supplierRow" msprop:Generator_TableVarName="tablemeds_supplier" msprop:Generator_UserTableName="meds_supplier">
+        <xs:element name="meds_supplier" msprop:Generator_RowClassName="meds_supplierRow" msprop:Generator_RowEvHandlerName="meds_supplierRowChangeEventHandler" msprop:Generator_RowDeletedName="meds_supplierRowDeleted" msprop:Generator_RowDeletingName="meds_supplierRowDeleting" msprop:Generator_RowEvArgName="meds_supplierRowChangeEvent" msprop:Generator_TablePropName="meds_supplier" msprop:Generator_RowChangedName="meds_supplierRowChanged" msprop:Generator_UserTableName="meds_supplier" msprop:Generator_RowChangingName="meds_supplierRowChanging" msprop:Generator_TableClassName="meds_supplierDataTable" msprop:Generator_TableVarName="tablemeds_supplier">
           <xs:complexType>
             <xs:sequence>
-              <xs:element name="S_ID" msprop:Generator_ColumnPropNameInRow="S_ID" msprop:Generator_ColumnPropNameInTable="S_IDColumn" msprop:Generator_ColumnVarNameInTable="columnS_ID" msprop:Generator_UserColumnName="S_ID" type="xs:int" />
-              <xs:element name="S_name" msprop:Generator_ColumnPropNameInRow="S_name" msprop:Generator_ColumnPropNameInTable="S_nameColumn" msprop:Generator_ColumnVarNameInTable="columnS_name" msprop:Generator_UserColumnName="S_name" type="xs:string" minOccurs="0" />
-              <xs:element name="Contact" msprop:Generator_ColumnPropNameInRow="Contact" msprop:Generator_ColumnPropNameInTable="ContactColumn" msprop:Generator_ColumnVarNameInTable="columnContact" msprop:Generator_UserColumnName="Contact" type="xs:long" minOccurs="0" />
-              <xs:element name="supplier_company" msprop:Generator_ColumnPropNameInRow="supplier_company" msprop:Generator_ColumnPropNameInTable="supplier_companyColumn" msprop:Generator_ColumnVarNameInTable="columnsupplier_company" msprop:Generator_UserColumnName="supplier_company" type="xs:string" minOccurs="0" />
+              <xs:element name="S_ID" msprop:Generator_UserColumnName="S_ID" msprop:Generator_ColumnPropNameInTable="S_IDColumn" msprop:Generator_ColumnPropNameInRow="S_ID" msprop:Generator_ColumnVarNameInTable="columnS_ID" type="xs:int" />
+              <xs:element name="S_name" msprop:Generator_UserColumnName="S_name" msprop:Generator_ColumnPropNameInTable="S_nameColumn" msprop:Generator_ColumnPropNameInRow="S_name" msprop:Generator_ColumnVarNameInTable="columnS_name" type="xs:string" minOccurs="0" />
+              <xs:element name="Contact" msprop:Generator_UserColumnName="Contact" msprop:Generator_ColumnPropNameInTable="ContactColumn" msprop:Generator_ColumnPropNameInRow="Contact" msprop:Generator_ColumnVarNameInTable="columnContact" type="xs:long" minOccurs="0" />
+              <xs:element name="supplier_company" msprop:Generator_UserColumnName="supplier_company" msprop:Generator_ColumnPropNameInTable="supplier_companyColumn" msprop:Generator_ColumnPropNameInRow="supplier_company" msprop:Generator_ColumnVarNameInTable="columnsupplier_company" type="xs:string" minOccurs="0" />
             </xs:sequence>
           </xs:complexType>
         </xs:element>
@@ -264,7 +273,7 @@
   </xs:element>
   <xs:annotation>
     <xs:appinfo>
-      <msdata:Relationship name="meds_order_ibfk_1" msdata:parent="meds_supplier" msdata:child="meds_order" msdata:parentkey="S_ID" msdata:childkey="S_ID" msprop:Generator_UserParentTable="meds_supplier" msprop:Generator_UserChildTable="meds_order" msprop:Generator_RelationVarName="relationmeds_order_ibfk_1" msprop:Generator_UserRelationName="meds_order_ibfk_1" msprop:Generator_ChildPropName="Getmeds_orderRows" msprop:Generator_ParentPropName="meds_supplierRow" />
+      <msdata:Relationship name="meds_order_ibfk_1" msdata:parent="meds_supplier" msdata:child="meds_order" msdata:parentkey="S_ID" msdata:childkey="S_ID" msprop:Generator_UserParentTable="meds_supplier" msprop:Generator_UserChildTable="meds_order" msprop:Generator_RelationVarName="relationmeds_order_ibfk_1" msprop:Generator_ChildPropName="Getmeds_orderRows" msprop:Generator_ParentPropName="meds_supplierRow" msprop:Generator_UserRelationName="meds_order_ibfk_1" />
     </xs:appinfo>
   </xs:annotation>
 </xs:schema>

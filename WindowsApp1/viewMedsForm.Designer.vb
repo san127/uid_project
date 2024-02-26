@@ -27,23 +27,23 @@ Partial Class viewMedsForm
         Me.Label8 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.viewmed_datagrid = New System.Windows.Forms.DataGridView()
-        Me.Panel2 = New System.Windows.Forms.Panel()
-        Me.viewMed_back = New System.Windows.Forms.Button()
-        Me.PharmaDataSet = New WindowsApp1.pharmaDataSet()
-        Me.Meds_inventoryBindingSource = New System.Windows.Forms.BindingSource(Me.components)
-        Me.Meds_inventoryTableAdapter = New WindowsApp1.pharmaDataSetTableAdapters.meds_inventoryTableAdapter()
-        Me.TableAdapterManager = New WindowsApp1.pharmaDataSetTableAdapters.TableAdapterManager()
         Me.MedIDDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.MedicineDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.CategoryDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.ExpirationdateDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.PriceDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.QtyDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Meds_inventoryBindingSource = New System.Windows.Forms.BindingSource(Me.components)
+        Me.PharmaDataSet = New WindowsApp1.pharmaDataSet()
+        Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.viewMed_back = New System.Windows.Forms.Button()
+        Me.Meds_inventoryTableAdapter = New WindowsApp1.pharmaDataSetTableAdapters.meds_inventoryTableAdapter()
+        Me.TableAdapterManager = New WindowsApp1.pharmaDataSetTableAdapters.TableAdapterManager()
         Me.Panel1.SuspendLayout()
         CType(Me.viewmed_datagrid, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.Panel2.SuspendLayout()
-        CType(Me.PharmaDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Meds_inventoryBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PharmaDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel2.SuspendLayout()
         Me.SuspendLayout()
         '
         'Panel1
@@ -87,52 +87,10 @@ Partial Class viewMedsForm
         Me.viewmed_datagrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.viewmed_datagrid.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.MedIDDataGridViewTextBoxColumn, Me.MedicineDataGridViewTextBoxColumn, Me.CategoryDataGridViewTextBoxColumn, Me.ExpirationdateDataGridViewTextBoxColumn, Me.PriceDataGridViewTextBoxColumn, Me.QtyDataGridViewTextBoxColumn})
         Me.viewmed_datagrid.DataSource = Me.Meds_inventoryBindingSource
-        Me.viewmed_datagrid.Location = New System.Drawing.Point(12, 93)
+        Me.viewmed_datagrid.Location = New System.Drawing.Point(12, 162)
         Me.viewmed_datagrid.Name = "viewmed_datagrid"
-        Me.viewmed_datagrid.Size = New System.Drawing.Size(667, 424)
+        Me.viewmed_datagrid.Size = New System.Drawing.Size(667, 355)
         Me.viewmed_datagrid.TabIndex = 85
-        '
-        'Panel2
-        '
-        Me.Panel2.BackColor = System.Drawing.Color.LightSteelBlue
-        Me.Panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Panel2.Controls.Add(Me.viewMed_back)
-        Me.Panel2.Location = New System.Drawing.Point(-1, 533)
-        Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(692, 22)
-        Me.Panel2.TabIndex = 84
-        '
-        'viewMed_back
-        '
-        Me.viewMed_back.BackColor = System.Drawing.Color.SkyBlue
-        Me.viewMed_back.Location = New System.Drawing.Point(309, -2)
-        Me.viewMed_back.Name = "viewMed_back"
-        Me.viewMed_back.Size = New System.Drawing.Size(75, 22)
-        Me.viewMed_back.TabIndex = 24
-        Me.viewMed_back.Text = "Back"
-        Me.viewMed_back.UseVisualStyleBackColor = False
-        '
-        'PharmaDataSet
-        '
-        Me.PharmaDataSet.DataSetName = "pharmaDataSet"
-        Me.PharmaDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
-        '
-        'Meds_inventoryBindingSource
-        '
-        Me.Meds_inventoryBindingSource.DataMember = "meds_inventory"
-        Me.Meds_inventoryBindingSource.DataSource = Me.PharmaDataSet
-        '
-        'Meds_inventoryTableAdapter
-        '
-        Me.Meds_inventoryTableAdapter.ClearBeforeFill = True
-        '
-        'TableAdapterManager
-        '
-        Me.TableAdapterManager.BackupDataSetBeforeUpdate = False
-        Me.TableAdapterManager.meds_inventoryTableAdapter = Me.Meds_inventoryTableAdapter
-        Me.TableAdapterManager.meds_orderTableAdapter = Nothing
-        Me.TableAdapterManager.meds_supplierTableAdapter = Nothing
-        Me.TableAdapterManager.UpdateOrder = WindowsApp1.pharmaDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete
         '
         'MedIDDataGridViewTextBoxColumn
         '
@@ -170,6 +128,48 @@ Partial Class viewMedsForm
         Me.QtyDataGridViewTextBoxColumn.HeaderText = "Qty"
         Me.QtyDataGridViewTextBoxColumn.Name = "QtyDataGridViewTextBoxColumn"
         '
+        'Meds_inventoryBindingSource
+        '
+        Me.Meds_inventoryBindingSource.DataMember = "meds_inventory"
+        Me.Meds_inventoryBindingSource.DataSource = Me.PharmaDataSet
+        '
+        'PharmaDataSet
+        '
+        Me.PharmaDataSet.DataSetName = "pharmaDataSet"
+        Me.PharmaDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
+        '
+        'Panel2
+        '
+        Me.Panel2.BackColor = System.Drawing.Color.LightSteelBlue
+        Me.Panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Panel2.Controls.Add(Me.viewMed_back)
+        Me.Panel2.Location = New System.Drawing.Point(-1, 533)
+        Me.Panel2.Name = "Panel2"
+        Me.Panel2.Size = New System.Drawing.Size(692, 22)
+        Me.Panel2.TabIndex = 84
+        '
+        'viewMed_back
+        '
+        Me.viewMed_back.BackColor = System.Drawing.Color.SkyBlue
+        Me.viewMed_back.Location = New System.Drawing.Point(309, -2)
+        Me.viewMed_back.Name = "viewMed_back"
+        Me.viewMed_back.Size = New System.Drawing.Size(75, 22)
+        Me.viewMed_back.TabIndex = 24
+        Me.viewMed_back.Text = "Back"
+        Me.viewMed_back.UseVisualStyleBackColor = False
+        '
+        'Meds_inventoryTableAdapter
+        '
+        Me.Meds_inventoryTableAdapter.ClearBeforeFill = True
+        '
+        'TableAdapterManager
+        '
+        Me.TableAdapterManager.BackupDataSetBeforeUpdate = False
+        Me.TableAdapterManager.meds_inventoryTableAdapter = Me.Meds_inventoryTableAdapter
+        Me.TableAdapterManager.meds_orderTableAdapter = Nothing
+        Me.TableAdapterManager.meds_supplierTableAdapter = Nothing
+        Me.TableAdapterManager.UpdateOrder = WindowsApp1.pharmaDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete
+        '
         'viewMedsForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -184,9 +184,9 @@ Partial Class viewMedsForm
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
         CType(Me.viewmed_datagrid, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.Panel2.ResumeLayout(False)
-        CType(Me.PharmaDataSet, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Meds_inventoryBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PharmaDataSet, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel2.ResumeLayout(False)
         Me.ResumeLayout(False)
 
     End Sub

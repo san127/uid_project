@@ -4,4 +4,17 @@
         Me.Meds_inventoryTableAdapter.Fill(Me.PharmaDataSet.meds_inventory)
 
     End Sub
+
+    Private Sub FillByToolStripButton_Click(sender As Object, e As EventArgs)
+        Try
+            Me.Meds_inventoryTableAdapter.FillBy(Me.PharmaDataSet.meds_inventory)
+        Catch ex As System.Exception
+            System.Windows.Forms.MessageBox.Show(ex.Message)
+        End Try
+
+    End Sub
+
+    Private Sub MnameUpd_btn_Click(sender As Object, e As EventArgs) Handles MnameUpd_btn.Click
+
+    End Sub
 End Class

@@ -11,7 +11,8 @@
     Private Sub pharma_Sumbit_Click(sender As Object, e As EventArgs) Handles pharma_Sumbit.Click
         If (pharma_txbx.Text.Equals("pharma101")) Then
             'MessageBox.Show("Login Successful", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information)
-
+            Me.Hide()
+            phamacistOptsform.Show()
         Else
             pharma_txbx.Clear()
             MessageBox.Show("Wrong password", "Information", MessageBoxButtons.OK, MessageBoxIcon.Error)

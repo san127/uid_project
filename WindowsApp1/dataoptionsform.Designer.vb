@@ -39,6 +39,7 @@ Partial Class dataoptionsform
         Me.ordMgmtPic = New System.Windows.Forms.PictureBox()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.Label8 = New System.Windows.Forms.Label()
         Me.Panel1.SuspendLayout()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.viewdbPic, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -84,9 +85,9 @@ Partial Class dataoptionsform
         '
         Me.PictureBox2.Cursor = System.Windows.Forms.Cursors.Hand
         Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
-        Me.PictureBox2.Location = New System.Drawing.Point(213, 268)
+        Me.PictureBox2.Location = New System.Drawing.Point(194, 294)
         Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(113, 101)
+        Me.PictureBox2.Size = New System.Drawing.Size(152, 130)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox2.TabIndex = 87
         Me.PictureBox2.TabStop = False
@@ -180,7 +181,7 @@ Partial Class dataoptionsform
         Me.label6.AutoSize = True
         Me.label6.Font = New System.Drawing.Font("Microsoft YaHei", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.label6.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.label6.Location = New System.Drawing.Point(28, 428)
+        Me.label6.Location = New System.Drawing.Point(8, 359)
         Me.label6.Name = "label6"
         Me.label6.Size = New System.Drawing.Size(152, 25)
         Me.label6.TabIndex = 97
@@ -189,9 +190,9 @@ Partial Class dataoptionsform
         'ordMgmtPic
         '
         Me.ordMgmtPic.Image = CType(resources.GetObject("ordMgmtPic.Image"), System.Drawing.Image)
-        Me.ordMgmtPic.Location = New System.Drawing.Point(62, 339)
+        Me.ordMgmtPic.Location = New System.Drawing.Point(34, 270)
         Me.ordMgmtPic.Name = "ordMgmtPic"
-        Me.ordMgmtPic.Size = New System.Drawing.Size(82, 86)
+        Me.ordMgmtPic.Size = New System.Drawing.Size(98, 86)
         Me.ordMgmtPic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.ordMgmtPic.TabIndex = 96
         Me.ordMgmtPic.TabStop = False
@@ -201,7 +202,7 @@ Partial Class dataoptionsform
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Microsoft YaHei", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label7.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label7.Location = New System.Drawing.Point(350, 428)
+        Me.Label7.Location = New System.Drawing.Point(373, 359)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(178, 25)
         Me.Label7.TabIndex = 99
@@ -210,12 +211,23 @@ Partial Class dataoptionsform
         'PictureBox1
         '
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(402, 339)
+        Me.PictureBox1.Location = New System.Drawing.Point(413, 270)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(82, 86)
+        Me.PictureBox1.Size = New System.Drawing.Size(99, 86)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox1.TabIndex = 98
         Me.PictureBox1.TabStop = False
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.ForeColor = System.Drawing.Color.MidnightBlue
+        Me.Label8.Location = New System.Drawing.Point(154, 439)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(233, 24)
+        Me.Label8.TabIndex = 100
+        Me.Label8.Text = "PURCHASING MANAGER"
         '
         'dataoptionsform
         '
@@ -223,6 +235,7 @@ Partial Class dataoptionsform
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Azure
         Me.ClientSize = New System.Drawing.Size(555, 512)
+        Me.Controls.Add(Me.Label8)
         Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.label6)
@@ -271,4 +284,5 @@ Partial Class dataoptionsform
     Friend WithEvents ordMgmtPic As PictureBox
     Friend WithEvents Label7 As Label
     Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents Label8 As Label
 End Class
