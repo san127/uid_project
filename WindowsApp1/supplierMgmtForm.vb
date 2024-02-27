@@ -17,7 +17,7 @@ Public Class supplierMgmtForm
         Try
             Connec.Open()
             cmd.ExecuteNonQuery()
-            MsgBox("Medicine removed successfully")
+            MsgBox("Supplier removed successfully")
             Me.Meds_supplierTableAdapter.Fill(Me.PharmaDataSet.meds_supplier)
         Catch ex As Exception
             MsgBox("Error : " & ex.Message)
@@ -40,7 +40,7 @@ Public Class supplierMgmtForm
         Try
             Connec.Open()
             cmd.ExecuteNonQuery()
-            MsgBox("Medicine added successfully")
+            MsgBox("Supplier added successfully")
             Me.Meds_supplierTableAdapter.Fill(Me.PharmaDataSet.meds_supplier)
         Catch ex As Exception
             MsgBox("Error : " & ex.Message)

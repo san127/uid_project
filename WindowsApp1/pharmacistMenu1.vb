@@ -54,4 +54,8 @@ Public Class pharmacistMenu1
         End Try
     End Sub
 
+    Private Sub adminMenu_back_Click(sender As Object, e As EventArgs) Handles adminMenu_back.Click
+        Me.Close()
+        phamacistOptsform.Show()
+    End Sub
 End Class

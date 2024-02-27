@@ -36,7 +36,8 @@ Public Class deleteMedForm
 
     End Sub
 
-    Private Sub delMed_txbx_TextChanged(sender As Object, e As EventArgs) Handles delMed_txbx.TextChanged
-
+    Private Sub adminMenu_back_Click(sender As Object, e As EventArgs) Handles adminMenu_back.Click
+        Me.Close()
+        phamacistOptsform.Show()
     End Sub
 End Class

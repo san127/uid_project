@@ -34,7 +34,9 @@ Partial Class dataoptionsform
         Me.Label7 = New System.Windows.Forms.Label()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Label8 = New System.Windows.Forms.Label()
+        Me.purchMenu_back = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
+        Me.Panel2.SuspendLayout()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.viewdbPic, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.ordMgmtPic, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -67,6 +69,7 @@ Partial Class dataoptionsform
         '
         Me.Panel2.BackColor = System.Drawing.Color.LightSteelBlue
         Me.Panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Panel2.Controls.Add(Me.purchMenu_back)
         Me.Panel2.Location = New System.Drawing.Point(-1, 478)
         Me.Panel2.Name = "Panel2"
         Me.Panel2.Size = New System.Drawing.Size(557, 22)
@@ -160,6 +163,17 @@ Partial Class dataoptionsform
         Me.Label8.TabIndex = 100
         Me.Label8.Text = "PURCHASING MANAGER"
         '
+        'purchMenu_back
+        '
+        Me.purchMenu_back.BackColor = System.Drawing.Color.SkyBlue
+        Me.purchMenu_back.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.purchMenu_back.Location = New System.Drawing.Point(231, -2)
+        Me.purchMenu_back.Name = "purchMenu_back"
+        Me.purchMenu_back.Size = New System.Drawing.Size(75, 22)
+        Me.purchMenu_back.TabIndex = 101
+        Me.purchMenu_back.Text = "Back"
+        Me.purchMenu_back.UseVisualStyleBackColor = False
+        '
         'dataoptionsform
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -181,6 +195,7 @@ Partial Class dataoptionsform
         Me.Text = "dataoptionsform"
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
+        Me.Panel2.ResumeLayout(False)
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.viewdbPic, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.ordMgmtPic, System.ComponentModel.ISupportInitialize).EndInit()
@@ -201,4 +216,5 @@ Partial Class dataoptionsform
     Friend WithEvents Label7 As Label
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents Label8 As Label
+    Friend WithEvents purchMenu_back As Button
 End Class

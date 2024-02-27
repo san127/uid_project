@@ -23,4 +23,9 @@
         Me.Close()
         orderMgmtForm.Show()
     End Sub
+
+    Private Sub purchMenu_back_Click(sender As Object, e As EventArgs) Handles purchMenu_back.Click
+        Me.Close()
+        purchmanger_log.Show()
+    End Sub
 End Class

@@ -27,7 +27,6 @@ Partial Class POSform
         Me.Label8 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Panel2 = New System.Windows.Forms.Panel()
-        Me.adminMenu_back = New System.Windows.Forms.Button()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
         Me.MedIDDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.MedicineDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
@@ -49,7 +48,6 @@ Partial Class POSform
         Me.medqty_txbx = New System.Windows.Forms.TextBox()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Panel1.SuspendLayout()
-        Me.Panel2.SuspendLayout()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Meds_inventoryBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PharmaDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -93,21 +91,10 @@ Partial Class POSform
         '
         Me.Panel2.BackColor = System.Drawing.Color.LightSteelBlue
         Me.Panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Panel2.Controls.Add(Me.adminMenu_back)
         Me.Panel2.Location = New System.Drawing.Point(0, 527)
         Me.Panel2.Name = "Panel2"
         Me.Panel2.Size = New System.Drawing.Size(692, 22)
         Me.Panel2.TabIndex = 46
-        '
-        'adminMenu_back
-        '
-        Me.adminMenu_back.BackColor = System.Drawing.Color.SkyBlue
-        Me.adminMenu_back.Location = New System.Drawing.Point(309, -2)
-        Me.adminMenu_back.Name = "adminMenu_back"
-        Me.adminMenu_back.Size = New System.Drawing.Size(75, 22)
-        Me.adminMenu_back.TabIndex = 24
-        Me.adminMenu_back.Text = "Back"
-        Me.adminMenu_back.UseVisualStyleBackColor = False
         '
         'DataGridView1
         '
@@ -232,7 +219,7 @@ Partial Class POSform
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(192, 489)
+        Me.Label3.Location = New System.Drawing.Point(206, 489)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(152, 24)
         Me.Label3.TabIndex = 94
@@ -242,7 +229,7 @@ Partial Class POSform
         '
         Me.tot_label.AutoSize = True
         Me.tot_label.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.tot_label.Location = New System.Drawing.Point(350, 489)
+        Me.tot_label.Location = New System.Drawing.Point(364, 489)
         Me.tot_label.Name = "tot_label"
         Me.tot_label.Size = New System.Drawing.Size(21, 24)
         Me.tot_label.TabIndex = 95
@@ -287,7 +274,6 @@ Partial Class POSform
         Me.Text = "POSform"
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
-        Me.Panel2.ResumeLayout(False)
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Meds_inventoryBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PharmaDataSet, System.ComponentModel.ISupportInitialize).EndInit()
@@ -300,7 +286,6 @@ Partial Class POSform
     Friend WithEvents Label8 As Label
     Friend WithEvents Label1 As Label
     Friend WithEvents Panel2 As Panel
-    Friend WithEvents adminMenu_back As Button
     Friend WithEvents DataGridView1 As DataGridView
     Friend WithEvents PharmaDataSet As pharmaDataSet
     Friend WithEvents Meds_inventoryBindingSource As BindingSource

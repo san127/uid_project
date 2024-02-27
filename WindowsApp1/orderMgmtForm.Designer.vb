@@ -41,10 +41,10 @@ Partial Class orderMgmtForm
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.medPrice_txbx = New System.Windows.Forms.TextBox()
-        Me.expDate_txbx = New System.Windows.Forms.TextBox()
+        Me.ordSup_txbx = New System.Windows.Forms.TextBox()
+        Me.ordqty_txbx = New System.Windows.Forms.TextBox()
         Me.medName_txbx = New System.Windows.Forms.TextBox()
-        Me.medId_txbx = New System.Windows.Forms.TextBox()
+        Me.ordId_txbx = New System.Windows.Forms.TextBox()
         Me.Panel1.SuspendLayout()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Meds_orderBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -203,19 +203,19 @@ Partial Class orderMgmtForm
         Me.Label2.TabIndex = 89
         Me.Label2.Text = "Order ID : "
         '
-        'medPrice_txbx
+        'ordSup_txbx
         '
-        Me.medPrice_txbx.Location = New System.Drawing.Point(182, 212)
-        Me.medPrice_txbx.Name = "medPrice_txbx"
-        Me.medPrice_txbx.Size = New System.Drawing.Size(228, 20)
-        Me.medPrice_txbx.TabIndex = 88
+        Me.ordSup_txbx.Location = New System.Drawing.Point(182, 212)
+        Me.ordSup_txbx.Name = "ordSup_txbx"
+        Me.ordSup_txbx.Size = New System.Drawing.Size(228, 20)
+        Me.ordSup_txbx.TabIndex = 88
         '
-        'expDate_txbx
+        'ordqty_txbx
         '
-        Me.expDate_txbx.Location = New System.Drawing.Point(182, 177)
-        Me.expDate_txbx.Name = "expDate_txbx"
-        Me.expDate_txbx.Size = New System.Drawing.Size(228, 20)
-        Me.expDate_txbx.TabIndex = 87
+        Me.ordqty_txbx.Location = New System.Drawing.Point(182, 177)
+        Me.ordqty_txbx.Name = "ordqty_txbx"
+        Me.ordqty_txbx.Size = New System.Drawing.Size(228, 20)
+        Me.ordqty_txbx.TabIndex = 87
         '
         'medName_txbx
         '
@@ -224,12 +224,12 @@ Partial Class orderMgmtForm
         Me.medName_txbx.Size = New System.Drawing.Size(228, 20)
         Me.medName_txbx.TabIndex = 86
         '
-        'medId_txbx
+        'ordId_txbx
         '
-        Me.medId_txbx.Location = New System.Drawing.Point(182, 107)
-        Me.medId_txbx.Name = "medId_txbx"
-        Me.medId_txbx.Size = New System.Drawing.Size(228, 20)
-        Me.medId_txbx.TabIndex = 85
+        Me.ordId_txbx.Location = New System.Drawing.Point(182, 107)
+        Me.ordId_txbx.Name = "ordId_txbx"
+        Me.ordId_txbx.Size = New System.Drawing.Size(228, 20)
+        Me.ordId_txbx.TabIndex = 85
         '
         'orderMgmtForm
         '
@@ -242,10 +242,10 @@ Partial Class orderMgmtForm
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.medPrice_txbx)
-        Me.Controls.Add(Me.expDate_txbx)
+        Me.Controls.Add(Me.ordSup_txbx)
+        Me.Controls.Add(Me.ordqty_txbx)
         Me.Controls.Add(Me.medName_txbx)
-        Me.Controls.Add(Me.medId_txbx)
+        Me.Controls.Add(Me.ordId_txbx)
         Me.Controls.Add(Me.DataGridView1)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.Panel2)
@@ -279,8 +279,8 @@ Partial Class orderMgmtForm
     Friend WithEvents Label5 As Label
     Friend WithEvents Label3 As Label
     Friend WithEvents Label2 As Label
-    Friend WithEvents medPrice_txbx As TextBox
-    Friend WithEvents expDate_txbx As TextBox
+    Friend WithEvents ordSup_txbx As TextBox
+    Friend WithEvents ordqty_txbx As TextBox
     Friend WithEvents medName_txbx As TextBox
-    Friend WithEvents medId_txbx As TextBox
+    Friend WithEvents ordId_txbx As TextBox
 End Class

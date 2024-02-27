@@ -381,7 +381,7 @@ Partial Class updateStockForm
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Azure
-        Me.ClientSize = New System.Drawing.Size(688, 632)
+        Me.ClientSize = New System.Drawing.Size(688, 617)
         Me.Controls.Add(Me.MqtyUpd_btn)
         Me.Controls.Add(Me.MpriceUpd_btn)
         Me.Controls.Add(Me.MexpdtUpd_btn)
