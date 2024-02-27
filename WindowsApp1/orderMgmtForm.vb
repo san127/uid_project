@@ -5,4 +5,7 @@
 
     End Sub
 
+    Private Sub order_addBtn_Click(sender As Object, e As EventArgs) Handles order_addBtn.Click
+
+    End Sub
 End Class
