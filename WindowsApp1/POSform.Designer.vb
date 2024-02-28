@@ -43,10 +43,10 @@ Partial Class POSform
         Me.searchMed_txbx = New System.Windows.Forms.TextBox()
         Me.bill_txbx = New System.Windows.Forms.TextBox()
         Me.add_billBTN = New System.Windows.Forms.Button()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.tot_label = New System.Windows.Forms.Label()
         Me.medqty_txbx = New System.Windows.Forms.TextBox()
         Me.Label4 = New System.Windows.Forms.Label()
+        Me.tot_label = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
         Me.Panel1.SuspendLayout()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Meds_inventoryBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -180,10 +180,10 @@ Partial Class POSform
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(125, 95)
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(77, 92)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(108, 16)
+        Me.Label2.Size = New System.Drawing.Size(156, 24)
         Me.Label2.TabIndex = 90
         Me.Label2.Text = "Medicine name : "
         '
@@ -208,32 +208,12 @@ Partial Class POSform
         '
         Me.add_billBTN.BackColor = System.Drawing.Color.LightSkyBlue
         Me.add_billBTN.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.add_billBTN.Location = New System.Drawing.Point(460, 265)
+        Me.add_billBTN.Location = New System.Drawing.Point(460, 266)
         Me.add_billBTN.Name = "add_billBTN"
         Me.add_billBTN.Size = New System.Drawing.Size(84, 28)
         Me.add_billBTN.TabIndex = 93
         Me.add_billBTN.Text = "ADD"
         Me.add_billBTN.UseVisualStyleBackColor = False
-        '
-        'Label3
-        '
-        Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(206, 489)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(152, 24)
-        Me.Label3.TabIndex = 94
-        Me.Label3.Text = "Total Amount : "
-        '
-        'tot_label
-        '
-        Me.tot_label.AutoSize = True
-        Me.tot_label.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.tot_label.Location = New System.Drawing.Point(364, 489)
-        Me.tot_label.Name = "tot_label"
-        Me.tot_label.Size = New System.Drawing.Size(21, 24)
-        Me.tot_label.TabIndex = 95
-        Me.tot_label.Text = "0"
         '
         'medqty_txbx
         '
@@ -245,12 +225,32 @@ Partial Class POSform
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(207, 272)
+        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Location = New System.Drawing.Point(178, 266)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(64, 16)
+        Me.Label4.Size = New System.Drawing.Size(93, 24)
         Me.Label4.TabIndex = 97
         Me.Label4.Text = "Quantity : "
+        '
+        'tot_label
+        '
+        Me.tot_label.AutoSize = True
+        Me.tot_label.Font = New System.Drawing.Font("Microsoft Tai Le", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.tot_label.Location = New System.Drawing.Point(565, 485)
+        Me.tot_label.Name = "tot_label"
+        Me.tot_label.Size = New System.Drawing.Size(31, 34)
+        Me.tot_label.TabIndex = 95
+        Me.tot_label.Text = "0"
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Tai Le", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(345, 485)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(214, 34)
+        Me.Label3.TabIndex = 94
+        Me.Label3.Text = "Total Amount : "
         '
         'POSform
         '
@@ -302,8 +302,8 @@ Partial Class POSform
     Friend WithEvents searchMed_txbx As TextBox
     Friend WithEvents bill_txbx As TextBox
     Friend WithEvents add_billBTN As Button
-    Friend WithEvents Label3 As Label
-    Friend WithEvents tot_label As Label
     Friend WithEvents medqty_txbx As TextBox
     Friend WithEvents Label4 As Label
+    Friend WithEvents tot_label As Label
+    Friend WithEvents Label3 As Label
 End Class

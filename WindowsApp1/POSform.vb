@@ -43,6 +43,7 @@ Public Class POSform
 
     Private Sub searchMed_btn_Click(sender As Object, e As EventArgs) Handles searchMed_btn.Click
         CheckMedicineExists(searchMed_txbx.Text)
+        searchMed_txbx.Clear()
     End Sub
 
     Private Sub add_billBTN_Click(sender As Object, e As EventArgs) Handles add_billBTN.Click
@@ -71,7 +72,7 @@ Public Class POSform
                 Dim medAmt As Integer = medPrice * medQty
 
                 ' Update the billing information in the TextBox
-                bill_txbx.Text = $"{medName} x {medQty} = {medAmt} {Environment.NewLine}{bill_txbx.Text}"
+                bill_txbx.Text = $"{medName} ----- {medPrice} x {medQty} = {medAmt} {Environment.NewLine}{bill_txbx.Text}"
 
                 ' Update the total amount
                 tot_label.Text = (Val(tot_label.Text) + medAmt).ToString()
