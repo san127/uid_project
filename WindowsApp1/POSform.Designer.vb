@@ -271,6 +271,7 @@ Partial Class POSform
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.Panel2)
         Me.Name = "POSform"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "POSform"
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
